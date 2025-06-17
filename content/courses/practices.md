@@ -1,4 +1,4 @@
 +++
 insert_anchor_links = "left"
-title = "Практики"
+title = "Практики и ВКР"
 +++

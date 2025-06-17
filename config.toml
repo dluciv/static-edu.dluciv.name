@@ -20,7 +20,9 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+emoji_favicon = "🎓"
 default_theme = "light"
+toc = true
 
 [languages.en]
 title = "Dmitry V. Luciv"
@@ -49,5 +51,10 @@ links = [
 
 [extra.footer]
 links = [
+	{ url = "https://se.math.spbu.ru/", name = "Chair of Software Engineering" },
+	{ url = "https://math.spbu.ru/", name = "Faculty of Math" },
 	{ url = "https://spbu.ru/", name = "SPbU" }
 ]
+
+[extra.goatcounter]
+user = "dluciv"
