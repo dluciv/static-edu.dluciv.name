@@ -1,0 +1,51 @@
+# The URL the site will be built for
+base_url = "https://edu.dluciv.name/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+# Theme
+theme = "duckquill"
+default_language = "ru"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+[extra]
+# Put all your custom variables here
+default_theme = "light"
+
+[languages.en]
+title = "Dmitry V. Luciv"
+description = "Dmitry V. Luciv, Education"
+taxonomies = [{ name = "tags", feed = false }]
+
+[languages.ru]
+title = "Луцив Д. В."
+description = "Луцив Дмитрий Вадимович, образование"
+generate_feeds = false
+taxonomies = [{ name = "tags", feed = false }]
+
+[extra.nav]
+show_feed = false
+show_theme_switcher = true
+links = [
+#	{ name = "Home", url = "/" },
+	{ name = "Links", menu = [
+		{ name = "Older Site", url = "https://edu-2018.dluciv.name/" },
+		{ name = "Home Page", url = "https://dluciv.name/" },
+	] },
+	{ name = "Disciplines", menu = [
+		{ url = "@/courses/practices.md", name = "Practices" }
+	] }
+]
+
+[extra.footer]
+links = [
+	{ url = "https://spbu.ru/", name = "SPbU" }
+]
