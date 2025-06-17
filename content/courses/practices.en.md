@@ -4,5 +4,5 @@ title = "Practices and Theses"
 +++
 
 {% alert(tip=true) %}
-Expecting this page in English?.. Use some translator please.
+Expecting this page in English?.. Nope. Switch to Russian one and use some translator please.
 {% end %}
