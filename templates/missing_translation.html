@@ -22,11 +22,13 @@
 		<i class="icon"></i>Tip</p>
 	<p>
 	{%- if lang == "ru" -%}
-	    Ожидали эту страницу по-русски?.. Увы. Переключите на английский и используйте переводчик.
+	    Ожидали эту страницу по-русски?.. Увы. <a href="{{ get_url(path=current_path, lang="en") }}">Переключите на английский</a> и используйте переводчик.
 	{%- elif lang == "cn" -%}
-	    希望这一页是中文的吗？.. 不好意思。。。. 请转到英语,请用翻译.
+	    {# | replace is a dirty hack, but it does not work without... #}
+	    你希望这一页是中文的吗？.. 请<a href="{{ get_url(path=current_path, lang="ru") | replace(from="en/", to="") }}">切换到俄语</a>并使用翻译。
 	{%- else -%}
-	    Expected this page in English?.. Sorry. Switch to Russian one and use some translator please.
+	    {# | replace is again a dirty hack... #}
+	    Expected this page in English?.. Sorry. <a href="{{ get_url(path=current_path, lang="ru") | replace(from="en/", to="") }}">Switch to Russian one</a> and use some translator please.
 	{%- endif -%}
 	</p>
 </blockquote>
