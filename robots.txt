@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://dluciv.github.io/static-edu.dluciv.name/sitemap.xml
