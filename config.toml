@@ -25,12 +25,12 @@ default_theme = "light"
 toc = true
 
 [languages.en]
-title = "Dmitry V. Luciv"
+title = "Dmitry V. Luciv, Education"
 description = "Dmitry V. Luciv, Education"
 taxonomies = [{ name = "tags", feed = false }]
 
 [languages.ru]
-title = "Луцив Д. В."
+title = "Луцив Д. В., образование"
 description = "Луцив Дмитрий Вадимович, образование"
 generate_feeds = false
 taxonomies = [{ name = "tags", feed = false }]
