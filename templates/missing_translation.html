@@ -1,0 +1,34 @@
+{% extends "page.html" %}
+
+{% block content %}
+<h1>
+{%- if page.title -%}
+    {{ page.title }}
+{%- elif lang == "ru" -%}
+    Нет перевода
+{%- elif lang == "cn" -%}
+    没有翻译
+{%- else -%}
+    No translation
+{%- endif -%}
+</h1>
+{%- include "partials/statements.html" -%}
+{%- if page.extra.toc and not page.extra.toc_sidebar -%}
+{%- include "partials/toc.html" -%}
+{%- endif -%}
+
+<blockquote class="tip">
+	<p class="alert-title">
+		<i class="icon"></i>Tip</p>
+	<p>
+	{%- if lang == "ru" -%}
+	    Ожидали эту страницу по-русски?.. Увы. Переключите на английский и используйте переводчик.
+	{%- elif lang == "cn" -%}
+	    希望这一页是中文的吗？.. 不好意思。。。. 请转到英语,请用翻译.
+	{%- else -%}
+	    Expected this page in English?.. Sorry. Switch to Russian one and use some translator please.
+	{%- endif -%}
+	</p>
+</blockquote>
+
+{% endblock content %}

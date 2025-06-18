@@ -45,7 +45,7 @@ links = [
 		{ name = "Home Page", url = "https://dluciv.name/" },
 	] },
 	{ name = "Disciplines", menu = [
-		{ url = "@/courses/practices.md", name = "Practices" }
+		{ url = "@/courses/internships.md", name = "Internships" }
 	] }
 ]
 
