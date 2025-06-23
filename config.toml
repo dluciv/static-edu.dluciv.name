@@ -41,8 +41,8 @@ show_theme_switcher = true
 links = [
 #	{ name = "Home", url = "/" },
 	{ name = "Links", menu = [
-		{ name = "Older Site", url = "https://edu-2018.dluciv.name/" },
-		{ name = "Home Page", url = "https://dluciv.name/" },
+		{ name = "Business Card Website", url = "https://dluciv.name/" },
+		{ name = "Older Site", url = "https://sites.google.com/view/edu0-dluciv-name" },
 	] },
 	{ name = "Disciplines", menu = [
 		{ url = "@/courses/internships.md", name = "Internships" }
