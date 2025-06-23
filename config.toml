@@ -42,7 +42,7 @@ links = [
 #	{ name = "Home", url = "/" },
 	{ name = "Links", menu = [
 		{ name = "Business Card Website", url = "https://dluciv.name/" },
-		{ name = "Older Site", url = "https://sites.google.com/view/edu0-dluciv-name" },
+		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 	] },
 	{ name = "Disciplines", menu = [
 		{ url = "@/courses/internships.md", name = "Internships" }

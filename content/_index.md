@@ -6,8 +6,9 @@ title = "Луцив Дмитрий Вадимович"
 {% crt() %}
 ```
 Сайт в разработке.
+Предыдущий сайт edu.dluciv.name доступен по aдресу:
+https://sites.google.com/view/edu2018-dluciv-name
 ```
-[Предыдущий сайт edu.dluciv.name доступен по ссылке](https://sites.google.com/view/edu0-dluciv-name).
 {% end %}
 
 Луцив Дмитрий Вадимович
@@ -19,7 +20,7 @@ title = "Луцив Дмитрий Вадимович"
 
 -   [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
 -   [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
--   Почта: `dluciv (a) math.spbu.ru`
+-   Почта: `d.lutsiv (a) spbu.ru`
 -   [Резюме](https://www.linkedin.com/in/dmitry-luciv-01483235/)
 -   Подробное описание того, как можно добраться до [Математико-механического факультета](http://math.spbu.ru/) СПбГУ и кафедры системного программирования можно получить [по ссылке](https://se.math.spbu.ru/contacts.html).
 -   Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж).
