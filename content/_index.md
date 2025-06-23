@@ -7,7 +7,7 @@ title = "Луцив Дмитрий Вадимович"
 ```
 Сайт в разработке.
 ```
-Предыдущий сайт edu.dluciv.name [доступен по ссылке](https://sites.google.com/view/edu0-dluciv-name).
+[Предыдущий сайт edu.dluciv.name доступен по ссылке](https://sites.google.com/view/edu0-dluciv-name).
 {% end %}
 
 Луцив Дмитрий Вадимович
