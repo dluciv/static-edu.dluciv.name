@@ -5,19 +5,17 @@ title = "Луцив Дмитрий Вадимович"
 
 {% crt() %}
 ```
-Сайт в разработке.
-Предыдущий сайт edu.dluciv.name доступен по aдресу:
+Л У Ц И В   Д М И Т Р И Й   В А Д И М О В И Ч
+Сайт в разработке. Предыдущий сайт edu.dluciv.name доступен по aдресу:
 https://sites.google.com/view/edu2018-dluciv-name
 ```
 {% end %}
 
 ![Как Д.В. Луцив выглядит (2025)](images/dluciv-2025.jpg#end)
 
-Луцив Дмитрий Вадимович
+## СПбГУ
 
-СПбГУ:
-
-- [Доцент](http://se.math.spbu.ru/SE/Members/dluciv/dmitrii-vadimovich-luciv) [Кафедры системного программирования](http://se.math.spbu.ru/)
+- [Доцент](https://se.math.spbu.ru/department/staff.html) [Кафедры системного программирования](https://se.math.spbu.ru/)
 - Председатель [учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
 - Учёный секретарь [Учёного совета математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
 
