@@ -1,7 +1,7 @@
 # The URL the site will be built for
-# base_url = "https://edu.dluciv.name"
-# Пока техническая ссылка:
-base_url = "https://dluciv.github.io/static-edu.dluciv.name"
+base_url = "https://edu.dluciv.name"
+# техническая ссылка:
+# base_url = "https://dluciv.github.io/static-edu.dluciv.name"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -46,8 +46,11 @@ links = [
 	] },
 	{ name = "Disciplines", menu = [
 		{ url = "@/courses/internships.md", name = "Internships" },
-		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algos-s2.md" },
-		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/courses/algos-s5.md" },
+		{ name = "Algorithms and Data Structures, 2nd Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms" },
+		{ name = "Algorithms and Data Structures, 5th Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5" },
+		{ name = "Hardware Architecture", url =  "https://sites.google.com/view/edu2018-dluciv-name/Home/architecture" },
+		{ name = "Modern Software Tools and Technologies", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/modern-tools-techs" },
+		{ name = "Distributed Information Processing and NoSQL Databases", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc" }
 	] }
 ]
 
@@ -59,4 +62,4 @@ links = [
 ]
 
 [extra.goatcounter]
-user = "dluciv-github-io"
+user = "edu-dluciv-name"
