@@ -11,7 +11,7 @@ https://sites.google.com/view/edu2018-dluciv-name
 ```
 {% end %}
 
-![Как Д.В. Луцив выглядит (выглядел в 2011)](images/dluciv-2025.jpg#end)
+![Как Д.В. Луцив выглядит (2025)](images/dluciv-2025.jpg#end)
 
 Луцив Дмитрий Вадимович
 
