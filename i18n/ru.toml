@@ -1,11 +1,14 @@
 language_name = "Русский"
 
 Links = "Ссылки"
-Internships = "Практики"
-Disciplines = "Дисциплины"
 "Home Page" = "Домашняя страница"
-"Business Card Website" = "Сайт-визитка"
+"Personal Website" = "Личный сайт"
 "Older Site" = "Старый сайт"
 "SPbU" = "СПбГУ"
 "Chair of Software Engineering" = "Кафедра системного программирования"
 "Faculty of Math" = "Матмех"
+
+Internships = "Практики"
+Disciplines = "Дисциплины"
+"Algorithms and Data Structures, 2nd Semester" =  "Алгоритмы и структуры данных, 2-й семестр"
+"Algorithms and Data Structures, 5th Semester" =  "Алгоритмы и структуры данных, 5-й семестр"

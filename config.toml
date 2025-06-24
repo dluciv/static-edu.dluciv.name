@@ -41,11 +41,13 @@ show_theme_switcher = true
 links = [
 #	{ name = "Home", url = "/" },
 	{ name = "Links", menu = [
-		{ name = "Business Card Website", url = "https://dluciv.name/" },
+		{ name = "Personal Website", url = "https://dluciv.name/" },
 		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 	] },
 	{ name = "Disciplines", menu = [
-		{ url = "@/courses/internships.md", name = "Internships" }
+		{ url = "@/courses/internships.md", name = "Internships" },
+		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algos-s2.md" },
+		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/courses/algos-s5.md" },
 	] }
 ]
 
