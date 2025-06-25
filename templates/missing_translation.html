@@ -28,7 +28,10 @@
 	    你希望这一页是中文的吗？.. 请<a href="{{ get_url(path=current_path, lang="ru") | replace(from="/en", to="") }}">切换到俄语</a>并使用翻译。
 	{%- else -%}
 	    {# | replace is again a dirty hack... #}
-	    Expected this page in English?.. Sorry. <a href="{{ get_url(path=current_path, lang="ru") | replace(from="/en", to="") }}">Switch to Russian one</a> and use some translator please.
+	    Expected this page in English?.. Sorry.
+	    <a href="https://translate.google.com/translate?sl=auto&tl=en&u={{ get_url(path=current_path, lang="ru") | replace(from="/en", to="") | urlencode }}">Translate Russian one to English please</a>.
+	    If it does not help, then <a href="{{ get_url(path=current_path, lang="ru") }}">switch manually to Russian one</a>
+	    and use some translator.
 	{%- endif -%}
 	</p>
 </blockquote>
