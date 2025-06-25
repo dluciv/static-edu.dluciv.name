@@ -25,10 +25,10 @@
 	    Ожидали эту страницу по-русски?.. Увы. <a href="{{ get_url(path=current_path, lang="en") }}">Переключите на английский</a> и используйте переводчик.
 	{%- elif lang == "cn" -%}
 	    {# | replace is a dirty hack, but it does not work without... #}
-	    你希望这一页是中文的吗？.. 请<a href="{{ get_url(path=current_path, lang="ru") | replace(from="en/", to="") }}">切换到俄语</a>并使用翻译。
+	    你希望这一页是中文的吗？.. 请<a href="{{ get_url(path=current_path, lang="ru") | replace(from="/en", to="") }}">切换到俄语</a>并使用翻译。
 	{%- else -%}
 	    {# | replace is again a dirty hack... #}
-	    Expected this page in English?.. Sorry. <a href="{{ get_url(path=current_path, lang="ru") | replace(from="en/", to="") }}">Switch to Russian one</a> and use some translator please.
+	    Expected this page in English?.. Sorry. <a href="{{ get_url(path=current_path, lang="ru") | replace(from="/en", to="") }}">Switch to Russian one</a> and use some translator please.
 	{%- endif -%}
 	</p>
 </blockquote>
