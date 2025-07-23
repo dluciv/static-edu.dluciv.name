@@ -15,26 +15,33 @@ title = "Луцив Дмитрий Вадимович"
 
 ## СПбГУ
 
+Должности и позиции
+
 - [Доцент](https://se.math.spbu.ru/department/staff.html) [Кафедры системного программирования](https://se.math.spbu.ru/)
 - Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
 - Учёный секретарь [Учёного совета математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
 
-## Контакты и данные
+Расписание
 
-![This QR](images/qr-edu-dluciv-name.png#end)
+- [Доступно по ссылке](https://timetable.spbu.ru/WeekEducatorEvents/2760) (информация может отличаться от действительности)
 
-- [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
-- [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
-- Почта: `d.lutsiv (a) spbu.ru`
-- [Резюме](https://www.linkedin.com/in/dmitry-luciv-01483235/)
+Контакты
+
+- Почта (СПбГУ): `d.lutsiv (a) spbu.ru`
 - Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html).
 - Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж).
 
-## Расписание
+## Общая информация
 
-[Доступно по ссылке](https://timetable.spbu.ru/WeekEducatorEvents/2760) (информация может отличаться от действительности)
+![This QR](images/qr-edu-dluciv-name.png#end)
 
-## Научные интересы
+Контакты
+
+- [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
+- [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
+- [Резюме](https://www.linkedin.com/in/dmitry-luciv-01483235/)
+
+Научные интересы
 
 -   [Управление дублированием в software-данных](http://spisok.math.spbu.ru/2019/p10.asp)
 -   [Проект DocLine](https://docline.github.io/)
