@@ -28,8 +28,8 @@ title = "Луцив Дмитрий Вадимович"
 Контакты
 
 - Почта (СПбГУ): `d.lutsiv (a) spbu.ru`
-- Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html).
-- Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж).
+- Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html)
+- Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж)
 
 ## Общая информация
 
@@ -43,7 +43,7 @@ title = "Луцив Дмитрий Вадимович"
 
 Научные интересы
 
--   [Управление дублированием в software-данных](http://spisok.math.spbu.ru/2019/p10.asp)
--   [Проект DocLine](https://docline.github.io/)
--   [Профиль Google Scholar](https://scholar.google.ru/citations?user=oxXVc4oAAAAJ)
--   [ORCID](https://orcid.org/0000-0002-6332-2360)
+- [Управление дублированием в software-данных](http://spisok.math.spbu.ru/2019/p10.asp)
+- [Проект DocLine](https://docline.github.io/)
+- [Профиль Google Scholar](https://scholar.google.ru/citations?user=oxXVc4oAAAAJ)
+- [ORCID](https://orcid.org/0000-0002-6332-2360)
