@@ -21,7 +21,7 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 emoji_favicon = "🎓"
-default_theme = "light"
+# default_theme = "system"
 toc = true
 
 [languages.en]
