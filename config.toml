@@ -50,7 +50,7 @@ links = [
 		{ name = "Algorithms and Data Structures, 5th Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5" },
 		{ name = "Computer Architecture", url =  "https://sites.google.com/view/edu2018-dluciv-name/Home/architecture" },
 		{ name = "Modern Software Tools and Technologies", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/modern-tools-techs" },
-		{ name = "Distributed Information Processing and NoSQL Databases", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc" }
+		{ name = "Distributed Information Processing and NoSQL Databases", url = "@/courses/nosql-s7.md" }
 	] }
 ]
 

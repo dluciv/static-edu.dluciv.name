@@ -3,14 +3,6 @@ insert_anchor_links = "left"
 title = "Луцив Дмитрий Вадимович"
 +++
 
-{% crt() %}
-```
-    Л У Ц И В   Д М И Т Р И Й   В А Д И М О В И Ч
-Сайт в разработке. Прежний сайт edu.dluciv.name здесь:
-  https://sites.google.com/view/edu2018-dluciv-name
-```
-{% end %}
-
 ![Д.В. Луцив (2025)](images/dluciv-2025.jpg#end)
 
 ## СПбГУ
