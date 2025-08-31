@@ -47,10 +47,10 @@ links = [
 	{ name = "Disciplines", menu = [
 		{ url = "@/courses/internships.md", name = "Internships" },
 		{ name = "Algorithms and Data Structures, 2nd Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms" },
-		{ name = "Algorithms and Data Structures, 5th Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5" },
+		{ name = "Algorithms and Data Structures, 5th Semester", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-b5" },
 		{ name = "Computer Architecture", url =  "https://sites.google.com/view/edu2018-dluciv-name/Home/architecture" },
-		{ name = "Modern Software Tools and Technologies", url = "https://sites.google.com/view/edu2018-dluciv-name/Home/modern-tools-techs" },
-		{ name = "Distributed Information Processing and NoSQL Databases", url = "@/courses/nosql-s7.md" }
+		{ name = "Modern Software Tools and Technologies", url = "@/courses/modern_tt-m1.md" },
+		{ name = "Distributed Information Processing and NoSQL DB", url = "@/courses/nosql-b7.md" }
 	] }
 ]
 
