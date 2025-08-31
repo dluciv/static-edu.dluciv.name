@@ -6,12 +6,28 @@ base_url = "https://edu.dluciv.name"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
-
 # Theme
 theme = "duckquill"
 default_language = "ru"
+
+
+#[languages.ru]
+title = "Луцив Дмитрий Вадимович"
+description = "Луцив Дмитрий Вадимович"
+generate_feeds = false
+taxonomies = [{ name = "tags", feed = false }]
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+[search]
+# index_format = "elasticlunr_json"
+index_format = "fuse_json"
+
+[languages.en]
+title = "Dmitry V. Luciv"
+description = "Dmitry V. Luciv"
+generate_feeds = false
+taxonomies = [{ name = "tags", feed = false }]
 
 [markdown]
 # Whether to do syntax highlighting
@@ -23,17 +39,7 @@ highlight_code = true
 emoji_favicon = "🎓"
 # default_theme = "system"
 toc = true
-
-[languages.en]
-title = "Dmitry V. Luciv, Education"
-description = "Dmitry V. Luciv, Education"
-taxonomies = [{ name = "tags", feed = false }]
-
-[languages.ru]
-title = "Луцив Д. В., образование"
-description = "Луцив Дмитрий Вадимович, образование"
-generate_feeds = false
-taxonomies = [{ name = "tags", feed = false }]
+styles = ["mods.css"]
 
 [extra.nav]
 show_feed = false

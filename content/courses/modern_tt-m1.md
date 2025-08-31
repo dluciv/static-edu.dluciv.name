@@ -1,6 +1,9 @@
 +++
 insert_anchor_links = "left"
 title = "Современные инструменты и технологии проргаммирования"
+[extra]
+toc = true
+toc_sidebar = true
 +++
 
 <!-- 1 семестр магистратура ПИ -->
