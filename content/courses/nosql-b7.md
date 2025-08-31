@@ -6,11 +6,11 @@ title = "Распределённая обработка данных и NoSQL �
 <!-- 7 семестр Технологии программирования -->
 
 ## Программа семинара
-В таблице [по ссылке](https://disk.yandex.ru/i/_kyO19whKMdjJw) — собственно доклады и их статус.
+В таблице [по ссылке](https://disk.yandex.ru/i/_kyO19whKMdjJw/preview) — собственно доклады и их статус.
 
-<iframe referrerpolicy="no-referrer" loading="lazy" src="https://disk.yandex.ru/i/_kyO19whKMdjJw/preview">
+<!-- iframe referrerpolicy="no-referrer" loading="lazy" src="https://disk.yandex.ru/i/_kyO19whKMdjJw/preview">
 Счастливый пользователь, не знающий, что такое `<iframe />`
-</iframe>
+</iframe -->
 
 ##  Правила
 
