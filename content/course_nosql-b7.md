@@ -10,7 +10,7 @@ title = "Распределённая обработка данных и NoSQL �
 Предпросмотр:
 
 <iframe
-  referrerpolicy="no-referrer" loading="lazy"
+  referrerpolicy="no-referrer" loading="lazy" height="1000px"
   src="https://vision.spb.ru/uxls/%D0%A1%D0%9F%D0%B1%D0%93%D0%A3.pub/%D0%91%D0%B0%D0%BA%D0%B0%D0%BB%D0%B0%D0%B2%D1%80%D0%B8%D0%B0%D1%82/NoSQL/2025-%D0%A2%D0%B5%D0%BC%D1%8B_%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B_%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B8.html">
 Счастливый пользователь, не знающий, что такое iframe...
 </iframe>
