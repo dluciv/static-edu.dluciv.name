@@ -10,7 +10,6 @@ title = "Алгоритмы и структуры данных, сем. 2"
 
 {% crt() %}
 ```
-Л У Ц И В   Д М И Т Р И Й   В А Д И М О В И Ч
 Страница в разработке.
 Прежний сайт edu.dluciv.name здесь:
 https://sites.google.com/view/edu2018-dluciv-name
