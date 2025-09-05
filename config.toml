@@ -51,12 +51,12 @@ links = [
 		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 	] },
 	{ name = "Disciplines", menu = [
-		{ url = "@/course_internships.md", name = "Internships" },
-		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/course_algds-b2.md" },
-		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/course_algds-b5.md" },
-		{ name = "Computer Architecture", url =  "@/course_comparch-b24.md" },
-		{ name = "Modern Software Tools and Technologies", url = "@/course_modern_tt-m1.md" },
-		{ name = "Distributed Information Processing and NoSQL DB", url = "@/course_nosql-b7.md" }
+		{ url = "@/internships/internships.md", name = "Internships & Theses" },
+		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algds-b2.md" },
+		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/courses/algds-b5.md" },
+		{ name = "Computer Architecture", url =  "@/courses/comparch-b24.md" },
+		{ name = "Modern Software Tools and Technologies", url = "@/courses/modern_tt-m1.md" },
+		{ name = "Distributed Information Processing and NoSQL DB", url = "@/courses/nosql-b7.md" }
 	] }
 ]
 
