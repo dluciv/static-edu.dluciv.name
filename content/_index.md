@@ -19,7 +19,7 @@ title = "Луцив Дмитрий Вадимович"
 
 Контакты
 
-- Почта (СПбГУ): `d.lutsiv (a) spbu.ru`
+- Почта (СПбГУ)<a href="https://edu-dluciv-name.goatcounter.com/" style="text-decoration: none; color: inherit;">:</a> `d.lutsiv (a) spbu.ru`
 - Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html)
 - Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж)
 
