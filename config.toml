@@ -51,7 +51,7 @@ links = [
 		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 	] },
 	{ name = "Disciplines", menu = [
-		{ url = "@/internships/masters.md", name = "Masters Internships & Theses" },
+		{ url = "@/internships/masters.md", name = "internships-masters" },
 		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algds-b2.md" },
 		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/courses/algds-b5.md" },
 		{ name = "Computer Architecture", url =  "@/courses/comparch-b24.md" },
