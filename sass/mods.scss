@@ -2,3 +2,24 @@ main {
     margin: 4.25rem auto 4rem;
     width: min(calc(var(--container-width) + 256px), 95%);
 }
+
+@font-face {
+    font-family: 'oldpc';
+    src: url(/fonts/clacon2.woff2);
+}
+
+.crt {
+    pre, code {
+        font-size: var(--font-size-large);
+        font-family: 'oldpc', 'Lucida Console', 'Monospace', monospace;
+    }
+
+    pre a {
+        color: inherit;
+        font: inherit;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

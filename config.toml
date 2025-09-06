@@ -46,10 +46,10 @@ show_feed = false
 show_theme_switcher = true
 links = [
 #	{ name = "Home", url = "/" },
-	{ name = "Links", menu = [
-		{ name = "Personal Website", url = "https://dluciv.name/" },
-		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
-	] },
+#	{ name = "Links", menu = [
+#		{ name = "Personal Website", url = "https://dluciv.name/" },
+#		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
+#	] },
 	{ name = "Disciplines", menu = [
 		{ url = "@/internships/masters.md", name = "internships-masters" },
 		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algds-b2.md" },

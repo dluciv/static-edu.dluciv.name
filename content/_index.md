@@ -3,6 +3,15 @@ insert_anchor_links = "left"
 title = "Луцив Дмитрий Вадимович"
 +++
 
+{% crt() %}
+<pre>
+Ссылки:
+- <a href="https://dluciv.name">Персональный сайт</a>
+- <a href="https://sites.google.com/view/edu2018-dluciv-name">Прежний сайт edu.dluciv.name</a>
+</pre>
+{% end %}
+
+
 ![Д.В. Луцив (2025)](images/dluciv-2025.jpg#end)
 
 ## СПбГУ
