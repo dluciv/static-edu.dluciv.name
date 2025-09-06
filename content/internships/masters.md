@@ -6,14 +6,6 @@ toc = true
 toc_sidebar = true
 +++
 
-{% crt() %}
-```
-Страница в разработке.
-Прежний сайт edu.dluciv.name здесь:
-https://sites.google.com/view/edu2018-dluciv-name
-```
-{% end %}
-
 ## Общее про практики и ВКР
 
 ### Требования к магистерской ВКР

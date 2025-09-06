@@ -9,12 +9,11 @@ title = "Алгоритмы и структуры данных, сем. 2"
 - Математика и компьютерные науки
 
 {% crt() %}
-<pre>
+```
 Страница в разработке.
-Прежний сайт edu.dluciv.name <a href="https://sites.google.com/view/edu2018-dluciv-name">доступен по ссылке</a>
-</pre>
+```
 {% end %}
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms)
+[Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms)
 {% end %}
