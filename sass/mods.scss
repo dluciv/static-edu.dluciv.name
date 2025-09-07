@@ -7,7 +7,7 @@ main {
 
 .crt {
     pre, code {
-        line-height: 1.325;
+        line-height: 1.25rem;
         font-size: $crt-font-size;
         font-family: $crt-font-family, 'Lucida Console', 'Monospace', monospace;
     }
