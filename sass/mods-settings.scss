@@ -1,0 +1,7 @@
+$crt-font-family: 'oldpc';
+$crt-font-size: var(--font-size-large);
+
+@font-face {
+    font-family: $crt-font-family;
+    src: url(/fonts/clacon2.woff2);
+}
