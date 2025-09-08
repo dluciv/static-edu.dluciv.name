@@ -180,5 +180,5 @@ toc_sidebar = true
 
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/modern-tools-techs)
+[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/modern-tools-techs?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}

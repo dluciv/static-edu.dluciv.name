@@ -36,5 +36,5 @@ title = "Распределённая обработка данных и NoSQL �
 Программа зачёта для тех, кому не хватило — содержание состоявшихся докладов семинара.
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc)
+[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}

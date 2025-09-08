@@ -154,5 +154,5 @@ toc_sidebar = true
   показаться, что это лучше, чем ничего.
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5)
+[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}

@@ -231,5 +231,5 @@ $$R = \min(1, T + 1/2 C + 1/2 P)$$
     School of Economics.
 
 {% alert(note=true) %}
-[Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms)
+[Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}
