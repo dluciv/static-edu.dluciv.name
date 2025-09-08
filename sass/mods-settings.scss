@@ -1,5 +1,6 @@
 $crt-font-family: 'oldpc';
 $crt-font-size: var(--font-size-large);
+$crt-line-height-mul: 1.125;
 
 @font-face {
     font-family: $crt-font-family;
