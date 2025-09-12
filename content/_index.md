@@ -31,13 +31,14 @@ title = "Луцив Дмитрий Вадимович"
 - Почта СПбГУ<a href="https://edu-dluciv-name.goatcounter.com/" style="text-decoration: none; color: inherit;">:</a> `d.lutsiv (a) spbu.ru`
 - [VK Teams](https://myteam.mail.ru/webim/) СПбГУ: `ST007027` — пишите, звоните
 - Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html)
-- Кроме занятий по расписанию меня можно встретить на Матмехе в комнатах 2352 и 2354 (II этаж)
+- Кроме занятий по расписанию меня обычно можно встретить на Матмехе в помещениях
+  2352, 2354, 1406, 3389, 3248.
 
 ## Общая информация
 
 ![This QR](images/qr-edu-dluciv-name.png#end)
 
-Контакты
+Дополнительно
 
 - [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
 - [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
