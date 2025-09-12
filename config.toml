@@ -50,13 +50,13 @@ links = [
 #		{ name = "Personal Website", url = "https://dluciv.name/" },
 #		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 #	] },
-	{ name = "Disciplines", menu = [
-		{ url = "@/internships/masters.md", name = "internships-masters" },
-		{ name = "Algorithms and Data Structures, 2nd Semester", url = "@/courses/algds-b2.md" },
-		{ name = "Algorithms and Data Structures, 5th Semester", url = "@/courses/algds-b5.md" },
-		{ name = "Computer Architecture", url =  "@/courses/comparch-b24.md" },
-		{ name = "Modern Software Tools and Technologies", url = "@/courses/modern_tt-m1.md" },
-		{ name = "Distributed Information Processing and NoSQL DB", url = "@/courses/nosql-b7.md" }
+	{ name = "disciplines", menu = [
+		{ url = "@/internships/masters.md", name = "internships-masters-m1234" },
+		{ name = "algds-b2", url = "@/courses/algds-b2.md" },
+		{ name = "algds-b5", url = "@/courses/algds-b5.md" },
+		{ name = "comp-arch-b24", url =  "@/courses/comparch-b24.md" },
+		{ name = "tools-tech-m1", url = "@/courses/modern_tt-m1.md" },
+		{ name = "nosql-b7", url = "@/courses/nosql-b7.md" }
 	] }
 ]
 

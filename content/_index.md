@@ -20,7 +20,7 @@ title = "Луцив Дмитрий Вадимович"
 
 - [Доцент](https://se.math.spbu.ru/department/staff.html) [Кафедры системного программирования](https://se.math.spbu.ru/)
 - Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
-- Учёный секретарь [Учёного совета математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
+- Учёный секретарь [Учёного совета Математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
 
 Расписание
 
@@ -30,7 +30,7 @@ title = "Луцив Дмитрий Вадимович"
 
 - Почта СПбГУ<a href="https://edu-dluciv-name.goatcounter.com/" style="text-decoration: none; color: inherit;">:</a> `d.lutsiv (a) spbu.ru`
 - [VK Teams](https://myteam.mail.ru/webim/) СПбГУ: `ST007027` — пишите, звоните
-- Подробное описание того, как можно добраться до [математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html)
+- Подробное описание того, как можно добраться до [Математико-механического факультета](http://math.spbu.ru/) СПбГУ и [кафедры системного программирования](https://se.math.spbu.ru/) можно получить [по ссылке](https://se.math.spbu.ru/contacts.html)
 - Кроме занятий по расписанию меня обычно можно встретить на Матмехе в помещениях
   2352, 1406, 3389, 3248.
 

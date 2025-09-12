@@ -1,3 +1,9 @@
 language_name = "English"
 
-"internships-masters" = "Master's Internships & Theses"
+"internships-masters-m1234" = "💡 Master's Internships & Theses"
+"disciplines"               = "📚 Disciplines"
+"algds-b2"                  = "🤖 Algorithms and Data Structures, 2nd Semester"
+"algds-b5"                  = "🧠 Algorithms and Data Structures, 5th Semester"
+"comp-arch-b24"             = "👨‍💻️Computer Architecture"
+"tools-tech-m1"             = "🛠 Modern Software Tools and Technologies"
+"nosql-b7"                  = "🛢 Distributed Information Processing and NoSQL DB"
