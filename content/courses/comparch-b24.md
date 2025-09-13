@@ -99,9 +99,9 @@ $$ R = \min(\operatorname{if} (T \ge \frac{1}{4}) \operatorname{then} 1 \op
 
 ## Предыдущие версии курса
 
-- [09.04.00 \...–2022](https://edu-2018.dluciv.name/archive/2021-2022/2021-22-архитектура-вычислительных-систем?authuser=0)
-- [231000](https://edu-2018.dluciv.name/archive/before/архитектура-вычислительных-систем-231000б?authuser=0)
-- [010400](https://edu-2018.dluciv.name/archive/before/architecture-cs220-010400?authuser=0)
+- [09.04.00 \...–2022](https://sites.google.com/view/edu2018-dluciv-name/archive/2021-2022/2021-22-архитектура-вычислительных-систем?authuser=0)
+- [231000](https://sites.google.com/view/edu2018-dluciv-name/archive/before/архитектура-вычислительных-систем-231000б?authuser=0)
+- [010400](https://sites.google.com/view/edu2018-dluciv-name/archive/before/architecture-cs220-010400?authuser=0)
 
 ## Список информационных источников
 
@@ -145,5 +145,5 @@ $$ R = \min(\operatorname{if} (T \ge \frac{1}{4}) \operatorname{then} 1 \op
 
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://edu-2018.dluciv.name/Home/architecture?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
+[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/architecture?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}

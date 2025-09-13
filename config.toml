@@ -48,7 +48,7 @@ links = [
 #	{ name = "Home", url = "/" },
 #	{ name = "Links", menu = [
 #		{ name = "Personal Website", url = "https://dluciv.name/" },
-#		{ name = "Older Site", url = "https://edu-2018.dluciv.name/" },
+#		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 #	] },
 	{ name = "disciplines", menu = [
 		{ url = "@/internships/masters.md", name = "internships-masters-m1234" },
