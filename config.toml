@@ -62,10 +62,10 @@ links = [
 
 [extra.footer]
 links = [
-	{ url = "https://duckquill.daudix.one/", name = "duck" },
 	{ url = "https://se.math.spbu.ru/", name = "Chair of Software Engineering" },
 	{ url = "https://math.spbu.ru/", name = "Faculty of Math" },
-	{ url = "https://spbu.ru/", name = "SPbU" }
+	{ url = "https://spbu.ru/", name = "SPbU" },
+	{ url = "https://duckquill.daudix.one/", name = "duck" }
 ]
 
 [extra.goatcounter]
