@@ -7,7 +7,7 @@ title = "Луцив Дмитрий Вадимович"
 <pre>
 Ссылки:
 - <a href="https://dluciv.name/?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain">Персональный сайт</a>
-- <a href="https://sites.google.com/view/edu2018-dluciv-name?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain">Прежний сайт edu.dluciv.name</a>
+- <a href="https://edu-2018.dluciv.name/?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain">Прежний сайт edu.dluciv.name</a>
 </pre>
 {% end %}
 
