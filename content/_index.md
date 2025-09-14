@@ -38,15 +38,15 @@ title = "Луцив Дмитрий Вадимович"
 
 ![This QR](images/qr-edu-dluciv-name.png#end)
 
-Дополнительно
-
-- [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
-- [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
-- [Резюме](https://www.linkedin.com/in/dmitry-luciv-01483235/)
-
 Научные интересы
 
 - [Управление дублированием в software-данных](http://spisok.math.spbu.ru/2019/p10.asp)
 - [Проект DocLine](https://docline.github.io/)
 - [Профиль Google Scholar](https://scholar.google.ru/citations?user=oxXVc4oAAAAJ)
 - [ORCID](https://orcid.org/0000-0002-6332-2360)
+
+Дополнительно
+
+- [Ключ PGP/GPG](http://www.dluciv.name/files/dluciv-pub.asc)
+- [Matrix](https://en.wikipedia.org/wiki/Matrix_%28communication_protocol%29): [\@dluciv:dluciv.name](https://matrix.to/#/@dluciv:dluciv.name)
+- [Резюме](https://www.linkedin.com/in/dmitry-luciv-01483235/)
