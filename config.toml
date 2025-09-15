@@ -50,7 +50,7 @@ links = [
 #		{ name = "Personal Website", url = "https://dluciv.name/" },
 #		{ name = "Older Site", url = "https://sites.google.com/view/edu2018-dluciv-name" },
 #	] },
-	{ name = "disciplines", menu = [
+	{ name = "materials", menu = [
 		{ url = "@/internships/masters.md", name = "internships-masters-m1234" },
 		{ name = "algds-b2", url = "@/courses/algds-b2.md" },
 		{ name = "algds-b5", url = "@/courses/algds-b5.md" },

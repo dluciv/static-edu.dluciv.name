@@ -1,7 +1,8 @@
 language_name = "English"
 
+"materials" = "📚 Materials"
+
 "internships-masters-m1234" = "💡 Master's Internships & Theses"
-"disciplines"               = "📚 Disciplines"
 "algds-b2"                  = "🤖 Algorithms and Data Structures, 2nd Semester"
 "algds-b5"                  = "🧠 Algorithms and Data Structures, 5th Semester"
 "comp-arch-b24"             = "👨‍💻️Computer Architecture"
