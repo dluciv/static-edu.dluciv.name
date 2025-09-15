@@ -36,7 +36,8 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
-emoji_favicon = "🎓"
+# emoji_favicon = "🎓"
+favicon = "favicon.png"
 # default_theme = "system"
 toc = true
 styles = ["mods.css"]
