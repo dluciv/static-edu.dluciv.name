@@ -1,4 +1,4 @@
-Это исходный код сайта https://edu.dluciv.name/.
+Это исходный код сайта [https://edu.dluciv.name/](https://edu.dluciv.name/?utm_source=github_site_sources&utm_campaign=social_links).
 
 Если вы нашли на сайте неточность, можете
 [писать Issue](https://github.com/dluciv/static-edu.dluciv.name/issues).
