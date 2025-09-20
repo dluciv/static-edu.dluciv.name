@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="ru" >
+<head>
+	<!-- 2025-09-20 Sat 08:10 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="Луцив Дмитрий Вадимович" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#9a9996" />
+	<title>Алгоритмы и структуры данных, сем. 2 - Луцив Дмитрий Вадимович</title>
+	<link rel="canonical" href="https://edu.dluciv.name/courses/algds-b2/" /><link rel="icon" type="image/png" href="https://edu.dluciv.name/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://edu.dluciv.name/apple-touch-icon.png" />
+<style type="text/css">
+	:root {--accent-color: #6f8396;}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/katex.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/mods.css" />
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/closable.js"></script>
+			<script type="text/javascript" defer data-goatcounter="https://edu-dluciv-name.goatcounter.com/count" src="https://edu.dluciv.name/count.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/auto-render.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex-init.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/search-fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/theme-switcher.js"></script>
+
+	<meta property="og:site_name" content="Луцив Дмитрий Вадимович" />
+	<meta property="og:title" content="Алгоритмы и структуры данных, сем. 2 - Луцив Дмитрий Вадимович" />
+	<meta property="og:url" content="https://edu.dluciv.name/courses/algds-b2/" />
+	<meta property="og:description" content="Луцив Дмитрий Вадимович" /><meta property="og:image" content="https://edu.dluciv.name/card.png" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://edu.dluciv.name">
+					<i class="icon"></i>Луцив Дмитрий Вадимович</a>
+			</li>
+			<li class="divider"></li><li>
+						<details class="closable">
+							<summary>📚 Материалы</summary>
+							<ul>
+										<li>
+											<a href="https://edu.dluciv.name/internships/masters/">💡 Практики и ВКР магистров</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b2/"class="active">🤖 Алгоритмы и структуры данных, 2-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b5/">🧠 Алгоритмы и структуры данных, 5-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/comparch-b24/">👨‍💻 Архитектура ЭВМ</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/modern-tt-m1/">🛠 Современные инструменты и технологии проргаммирования</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/nosql-b7/">🛢 Распределённая обработка информации и NoSQL БД</a>
+										</li></ul>
+						</details>
+			 		 </li>
+				<li id="search">
+					<button id="search-toggle" class="circle" title="Search">
+						<i class="icon"></i>
+					</button>
+				</li>
+
+<li id="language-switcher">
+	<details class="closable">
+		<summary class="circle" title="Language">
+			<i class="icon"></i>
+		</summary>
+		<ul><li>
+						<a lang="en" href="https:&#x2F;&#x2F;edu.dluciv.name/en/courses/algds-b2/">English</a>
+					</li></ul>
+	</details>
+</li>
+
+				<li id="theme-switcher">
+					<details class="closable">
+						<summary class="circle" title="Theme">
+							<i class="icon"></i>
+						</summary>
+						<ul>
+							<li>
+								<button class="circle" id="theme-light" title="Switch to Light Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-dark" title="Switch to Dark Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-system" title="Use System Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+						</ul>
+					</details>
+				</li>
+		</ul>
+	</nav>
+		<div id="search-container">
+			<label for="search-bar" class="visually-hidden">Search</label>
+			<input id="search-bar" placeholder="Search for…" autocomplete="off" type="search" disabled>
+			<div id="search-results-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+</header>
+<div id="sidebar">
+			<div><h2>Содержание</h2>
+		<ul><li>
+					<a href="https://edu.dluciv.name/courses/algds-b2/#materialy">Материалы</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#slaidy">Слайды</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#primery">Примеры</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#prakticheskie-zadaniia-seminary-i-kommunikatsiia">Практические задания, семинары и коммуникация</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b2/#zachiot-i-ekzamen">Зачёт и экзамен</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#voprosy-k-zachiotu-i-ekzamenu-vesna-2025">Вопросы к зачёту и экзамену, весна 2025</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#uspekhi">Успехи</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#kuda-zagruzhat-sertifikaty-za-onlain-kurs">Куда загружать сертификаты за онлайн-курс?</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#kriterii-otsenivaniia-2024">Критерии оценивания (2024)</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b2/#pi">ПИ</a></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b2/#mikn-i-iind">МиКН и ИИНД</a></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b2/#spisok-informatsionnykh-istochnikov">Список информационных источников</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#literatura">Литература</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b2/#onlain-kursy">Онлайн-курсы</a>
+								</li></ul></li></ul></div>
+		</div><main id="main-content">
+		
+<h1>Алгоритмы и структуры данных, сем. 2</h1><p>Для программ:</p>
+<ul>
+<li>Программная инженерия</li>
+<li>Искусственный интеллект и наука о данных</li>
+<li>Математика и компьютерные науки</li>
+</ul>
+<h2 id="materialy"><a class="zola-anchor" href="#materialy" aria-label="Anchor link for: materialy"><i class="icon"></i></a>
+Материалы</h2>
+<h3 id="slaidy"><a class="zola-anchor" href="#slaidy" aria-label="Anchor link for: slaidy"><i class="icon"></i></a>
+Слайды</h3>
+<p>Слайды по ссылкам практически точно совпадают с теми, которые, показываются на лекциях. Но всё может поменяться 🧔🏻.</p>
+<ol>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.01.symbols-encodings">От символов к байтам и
+обратно</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.02.numbers">Числа: точность, неотрицательные системы счисления, дополнительный
+код</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.03.fpnumbers">Числа с плавающей запятой: представление, распределение; комплексные
+числа</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.04.logic_and_trinary">Булева и многозначные логики; cимметричные системы счисления; троичная
+информатика</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.05.linear_containers">Линейные
+контейнеры</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.06.trees">Бинарные
+деревья</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.07.heavily_branching_trees">Сильно ветвящиеся
+деревья</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.08.hashtables">Хэш-функции и
+хэш-таблицы</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.09.heap">Куча</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.10.strings">Строки</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.11.evolution">Эволюционные
+алгоритмы</a> +
+<a href="https://github.com/dluciv/lections-everywhere/tree/master/jupyter-notebooks/12.EvoAlgo">блокноты с
+примерами</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.12.stack">Стек. Динамическая и статическая
+цепочки</a></li>
+<li><a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/quarto/b2.13.some_algos.pdf">Немного об алгоритмах и рекуррентных
+соотношениях</a></li>
+<li><a href="https://dluciv.github.io/lections-everywhere/slides.html?ttl=spbu-cs-103&amp;md=b2.12.classifiers">Классификаторы</a></li>
+</ol>
+<h3 id="primery"><a class="zola-anchor" href="#primery" aria-label="Anchor link for: primery"><i class="icon"></i></a>
+Примеры</h3>
+<p><a href="https://github.com/dluciv/algs_and_data_structs-spbu-CB.5001/tree/master/examples/b2">Здесь</a> и
+<a href="https://github.com/dluciv/python-intro-course/tree/master/docs/examples">здесь</a>.</p>
+<h3 id="prakticheskie-zadaniia-seminary-i-kommunikatsiia"><a class="zola-anchor" href="#prakticheskie-zadaniia-seminary-i-kommunikatsiia" aria-label="Anchor link for: prakticheskie-zadaniia-seminary-i-kommunikatsiia"><i class="icon"></i></a>
+Практические задания, семинары и коммуникация</h3>
+<h4 id="kommunikatsiia"><a class="zola-anchor" href="#kommunikatsiia" aria-label="Anchor link for: kommunikatsiia"><i class="icon"></i></a>
+Коммуникация</h4>
+<p>Чатики для ИИНД и МиКН (2025) в VK Teams СПбГУ:</p>
+<ul>
+<li><a href="https://myteam.mail.ru/profile/AoLJ2dxpuWDnTNAO0Wc">для ИИНД</a>;</li>
+<li><a href="https://myteam.mail.ru/profile/AoLJ2d43rLTmSJvb0GM">для МиКН</a>.</li>
+</ul>
+<h4 id="prakticheskie-zadaniia-dlia-iind-i-mikn-2025"><a class="zola-anchor" href="#prakticheskie-zadaniia-dlia-iind-i-mikn-2025" aria-label="Anchor link for: prakticheskie-zadaniia-dlia-iind-i-mikn-2025"><i class="icon"></i></a>
+Практические задания для ИИНД и МиКН (2025)</h4>
+<p>Задания проверяются при помощи курсов на HwProj:</p>
+<ul>
+<li><a href="https://hwproj.ru/courses/40035">для ИИНД</a>;</li>
+<li><a href="https://hwproj.ru/courses/40037/">для МиКН</a>.</li>
+</ul>
+<h4 id="temy-dlia-vozmozhnykh-dokladov-mikn"><a class="zola-anchor" href="#temy-dlia-vozmozhnykh-dokladov-mikn" aria-label="Anchor link for: temy-dlia-vozmozhnykh-dokladov-mikn"><i class="icon"></i></a>
+Темы для возможных докладов МиКН</h4>
+<p>Учебный план МиКН подразумевает по две лекции в неделю в течение 4 семестров.
+Всё это время сидеть и слушать не полезно для психического здоровья.
+Поэтому предлагается сделать ряд докладов.</p>
+<ol>
+<li>~20 мин. Python typing &amp; Abstract Base Classes. Объяснить,
+зачем они нужны, и что они дают программисту на Python.</li>
+<li>~20 мин. Реализация целочисленной арифметики с использованием
+обратного кода.</li>
+<li>~40–50 мин. Unums &amp; Posits. Объяснить, как (и для чего)
+хранятся числа в форматах Unum и Posit, попробовать хотя бы одну
+реализацию, продемонстрировать отличия в работе от IEEE-754.</li>
+<li>~20 мин. Реализация Deque на основе неизменяемых структур
+данных. Можно <a href="https://en.wikipedia.org/wiki/Double-ended_queue#Purely_functional_implementation">пользоваться
+Википедией</a>,
+но желательно копнуть глубже.</li>
+<li>~20 мин. Высота несбалансированного дерева поиска. Доходчиво и
+внятно изложить <a href="https://cs.stackexchange.com/a/6356">материал по
+ссылке</a>.</li>
+<li>~20 мин. Расширяющиеся деревья. <a href="https://doi.org/10.1145%2F3828.3835">D.D. Sleator,  R.E. Tarjan.
+Self-Adjusting Binary Search Trees // Journal of the ACM. 32 (3)
+1985, P. 652–686</a>.</li>
+</ol>
+<h2 id="zachiot-i-ekzamen"><a class="zola-anchor" href="#zachiot-i-ekzamen" aria-label="Anchor link for: zachiot-i-ekzamen"><i class="icon"></i></a>
+Зачёт и экзамен</h2>
+<h3 id="voprosy-k-zachiotu-i-ekzamenu-vesna-2025"><a class="zola-anchor" href="#voprosy-k-zachiotu-i-ekzamenu-vesna-2025" aria-label="Anchor link for: voprosy-k-zachiotu-i-ekzamenu-vesna-2025"><i class="icon"></i></a>
+Вопросы к зачёту и экзамену, весна 2025</h3>
+<h4 id="chast-i"><a class="zola-anchor" href="#chast-i" aria-label="Anchor link for: chast-i"><i class="icon"></i></a>
+Часть I</h4>
+<ol>
+<li>Буква, символ, алфавит; кодирование и кодировки до Unicode.</li>
+<li>Unicode: пространство символов; модификаторы; нормализация;
+сравнение; кодировки.</li>
+<li>Абсолютная и относительная погрешности; позиционные системы
+счисления.</li>
+<li>Дополнительный код.</li>
+<li>Симметричные системы счисления.</li>
+<li>Троичные арифметика и логика.</li>
+<li>Числа с плавающей запятой; нормализация.</li>
+<li>Распределение чисел с плавающей запятой.</li>
+<li>Комплексные числа, распределение разных представлений.</li>
+<li>Назначение линейных контейнеров; преимущества и недостатки массивов.</li>
+<li>Массивы; представление многомерных массивов при помощи векторов
+Айлифа.</li>
+<li>Сортировка массивов: зачем она нужна. Алгоритмы сортировки на месте,
+без использования дополнительной памяти для данных.</li>
+<li>Алгоритмы сортировки с использованием дополнительной памяти для
+данных. Вопросы локальности обращения к ОЗУ при сортировке.</li>
+<li>Преимущества и недостатки списков; способы реализации списков;
+оптимизация работы списков: блочные списки.</li>
+<li>Оптимизация работы списков: шитые и иерархические списки; Zipper,
+стек, очередь и дек на основе списков.</li>
+<li>Назначение, преимущества и недостатки деревьев.</li>
+<li>Эффективность распараллеливания, закон Амдала, распараллеливание
+известных алгоритмов; жадные и динамические алгоритмы.</li>
+<li><strong>[МиКН, ИИНД]</strong> Назначение кучи; куча для элементов одинакового
+размера. Тривиальная организация кучи; фрагментация и
+дефрагментация.</li>
+<li><strong>[МиКН]</strong> Ускорение программ на Python при помощи Numba, MyPy,
+Cython.</li>
+</ol>
+<h4 id="chast-ii"><a class="zola-anchor" href="#chast-ii" aria-label="Anchor link for: chast-ii"><i class="icon"></i></a>
+Часть II</h4>
+<ol>
+<li>AVL - деревья.</li>
+<li>Красно-черные деревья.</li>
+<li>Декартовы деревья.</li>
+<li>Интервальные деревья.</li>
+<li>B - деревья.</li>
+<li>R - деревья.</li>
+<li>Деревья поиска строк — префиксное дерево, Trie. Представления
+графов.</li>
+<li>Хеш-функции: требуемые свойства «хороших» функций, примеры
+использования.</li>
+<li>«Плохие» хэш-функции, их использование.</li>
+<li>Хеш-таблицы: назначение, преимущества и недостатки перед деревьями,
+подходы к перестройке расширению.</li>
+<li>Распределенные хеш-таблицы.</li>
+<li>Строки; представление строк при помощи массивов, списков и деревьев
+(ациклических графов).</li>
+<li>Представление контекста вложенных процедур при помощи цепочек
+фреймов и мониторов.</li>
+<li>Передача процедур «вниз» по цепочке вызовов; поддержание статической
+цепочки.</li>
+<li>Произвольная передача замыканий (процедур с контекстом) с
+копированием или динамическим выделением контекста.</li>
+<li>Теорема о рекуррентных соотношениях и примеры алгоритмов, подходящих
+под её частные случаи.</li>
+<li>Вдумчивые и конструктивные замечания по программе курса (<em>любой
+обдуманный ответ считается безупречным</em>).</li>
+<li><strong>[МиКН, ИИНД]</strong> Оптимизация дефрагментации методом граничных
+маркеров. Метод двоичных близнецов.</li>
+<li><strong>[МиКН]</strong> Генетические алгоритмы.</li>
+</ol>
+<h3 id="uspekhi"><a class="zola-anchor" href="#uspekhi" aria-label="Anchor link for: uspekhi"><i class="icon"></i></a>
+Успехи</h3>
+<p><a href="https://disk.yandex.ru/i/RYHkTefEKjA50w">Табличка на Яндекс.Диске</a></p>
+<h3 id="kuda-zagruzhat-sertifikaty-za-onlain-kurs"><a class="zola-anchor" href="#kuda-zagruzhat-sertifikaty-za-onlain-kurs" aria-label="Anchor link for: kuda-zagruzhat-sertifikaty-za-onlain-kurs"><i class="icon"></i></a>
+Куда загружать сертификаты за онлайн-курс?</h3>
+<p>Также на HwProj:</p>
+<ul>
+<li><a href="https://hwproj.ru/courses/50042">для всех</a>.</li>
+</ul>
+<h3 id="kriterii-otsenivaniia-2024"><a class="zola-anchor" href="#kriterii-otsenivaniia-2024" aria-label="Anchor link for: kriterii-otsenivaniia-2024"><i class="icon"></i></a>
+Критерии оценивания (2024)</h3>
+<p>Пересчёт $R \in [0, 1] = [0\%, 100\%]$ в оценку по <a href="https://spbu.ru/openuniversity/documents/o-primenenii-sistemy-ocenivaniya-v-sootvetstvii-s-trebovaniyami-ects">приказу 7293/1 от
+20.07.2018</a>.</p>
+<p>Теоретический зачёт из двух вопросов — $T = (T_1+T_2+\mathrm{Доп})/3$.</p>
+<p>Онлайн-курс (ниже) — $C \in [0, 1] = [0\%, 100\%]$</p>
+<p>Практические задание — $P \in [0, 1] = $ &lt;полученный балл на HwProj&gt; /
+&lt;хороший возможный балл на HwProj&gt;</p>
+<h2 id="pi"><a class="zola-anchor" href="#pi" aria-label="Anchor link for: pi"><i class="icon"></i></a>
+ПИ</h2>
+<p>$$R = \min(1, T + 1/2 C)$$</p>
+<h2 id="mikn-i-iind"><a class="zola-anchor" href="#mikn-i-iind" aria-label="Anchor link for: mikn-i-iind"><i class="icon"></i></a>
+МиКН и ИИНД</h2>
+<p>$$R = \min(1, T + 1/2 C + 1/2 P)$$</p>
+<p>В 2025:</p>
+<ul>
+<li>для МиКН $P =$ &lt;балл в HwProj&gt; / 50</li>
+<li>для ИИНД $P =$ &lt;балл в HwProj&gt; / 70</li>
+</ul>
+<h2 id="spisok-informatsionnykh-istochnikov"><a class="zola-anchor" href="#spisok-informatsionnykh-istochnikov" aria-label="Anchor link for: spisok-informatsionnykh-istochnikov"><i class="icon"></i></a>
+Список информационных источников</h2>
+<h3 id="literatura"><a class="zola-anchor" href="#literatura" aria-label="Anchor link for: literatura"><i class="icon"></i></a>
+Литература</h3>
+<ol>
+<li>Дж. Д. Ульман А. В. Ахо, Дж. Э. Хопкрофт. Структуры данных и
+алгоритмы. Издательский дом «Вильямс», 2000.</li>
+<li>Дональд Э. Кнут. Искусство Программирования. Издательский дом
+«Вильямс», 2000.</li>
+<li>Томас Кормен, Чарльз Лейзерсон, Рональд Ривест. Алгоритмы:
+построение и анализ. М.: МЦНМО, 1999.</li>
+<li>Кубенский А. А. Структуры и алгоритмы обработки данных.
+Объектно-ориентированный подход и реализация на C++. СПб.:
+БХВ-Петербург, 2004.</li>
+<li>Тоби Сегаран. <a href="https://books.google.ru/books?isbn=5932861193">Программируем коллективный
+разум</a>: [пер. с
+англ.] // М. — Символ-Плюс, 2008, 368 с.</li>
+<li>Кузнецов С. Д. <a href="http://citforum.ru/programming/theory/sorting/sorting2.shtml">Методы сортировки и
+поиска</a>.
+ИСП РАН, Центр Информационных Технологий.</li>
+</ol>
+<h3 id="onlain-kursy"><a class="zola-anchor" href="#onlain-kursy" aria-label="Anchor link for: onlain-kursy"><i class="icon"></i></a>
+Онлайн-курсы</h3>
+<p>... рекомендованные в качестве дополнительных материалов</p>
+<ol>
+<li>На второй семестр — <a href="https://www.coursera.org/learn/algorithmic-toolbox?specialization=data-structures-algorithms">Algorithmic
+Toolbox</a> &amp; <a href="https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms">Data
+Structures</a> University
+of California San Diego; National Research University Higher School of Economics.</li>
+<li>На второй семестр — CS Center, <a href="https://stepik.org/course/1547/">Алгоритмы: теория и практика.
+Структуры данных</a>.</li>
+<li>На все семестры <a href="https://en.coursera.org/specializations/data-structures-algorithms">Data Structures and
+Algorithms</a> University
+of California San Diego; National Research University Higher
+School of Economics.</li>
+</ol>
+<blockquote class="note">
+	<p class="alert-title">
+		<i class="icon"></i>Note</p>
+	<p><a href="https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms?utm_source=edu.dluciv.name&amp;utm_campaign=dluciv.name_domain">Cтраница доступна на старом сайте</a></p>
+
+</blockquote>
+
+
+		
+	<span id="search-index" class="hidden">https://edu.dluciv.name/search_index.ru.json</span>
+	<span id="more-matches-text" class="hidden">$MATCHES more matches</span>
+
+	</main>
+	<footer id="site-footer">
+		<nav>
+			<ul>
+					<li>
+						<a href="https:&#x2F;&#x2F;se.math.spbu.ru&#x2F;" rel="" class="external">Кафедра системного программирования</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;math.spbu.ru&#x2F;" rel="" class="external">Матмех</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;spbu.ru&#x2F;" rel="" class="external">СПбГУ</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;github.com&#x2F;dluciv&#x2F;static-edu.dluciv.name" rel="" class="external">Нашли неточность?..</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;duckquill.daudix.one&#x2F;" rel="" class="external">🦆</a>
+					</li>
+			</ul>
+		</nav>
+</footer>
+
+
+</body>
+</html>
