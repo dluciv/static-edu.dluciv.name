@@ -6,6 +6,14 @@ toc = true
 toc_sidebar = true
 +++
 
+## Доклады в семестре
+
+<iframe
+  referrerpolicy="no-referrer" loading="lazy" height="750px"
+  src="https://vision.spb.ru/uxls/Магистры_доклады_в_семестре/Доклады в семестре по тематике практик.html">
+Счастливый пользователь, не знающий, что такое iframe...
+</iframe>
+
 ## Общее про практики и ВКР
 
 ### Требования к магистерской ВКР
