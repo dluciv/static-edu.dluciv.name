@@ -41,6 +41,8 @@ favicon = "favicon.png"
 # default_theme = "system"
 toc = true
 styles = ["mods.css"]
+# Extra scripts
+scripts = ["scripts/appmeta.js"]
 
 [extra.nav]
 show_feed = false
