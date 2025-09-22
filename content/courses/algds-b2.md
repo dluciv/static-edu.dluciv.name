@@ -170,7 +170,7 @@ katex = true
 
 - [для всех](https://hwproj.ru/courses/50042).
 
-### Критерии оценивания (2024)
+### Критерии оценивания (2025)
 
 Пересчёт $R \in [0, 1] = [0\\%, 100\\%]$ в оценку по [приказу 7293/1 от
 20.07.2018](https://spbu.ru/openuniversity/documents/o-primenenii-sistemy-ocenivaniya-v-sootvetstvii-s-trebovaniyami-ects).
