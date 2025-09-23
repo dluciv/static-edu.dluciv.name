@@ -8,6 +8,8 @@ toc_sidebar = true
 
 ## Доклады в семестре
 
+Таблица обновляется раз в ~15 минут:
+
 <iframe
   referrerpolicy="no-referrer" loading="lazy" height="750px"
   src="https://vision.spb.ru/uxls/Магистры_доклады_в_семестре/Доклады в семестре по тематике практик.html">
