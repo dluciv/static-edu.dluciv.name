@@ -10,11 +10,7 @@ toc_sidebar = true
 
 Таблица обновляется раз в ~15 минут:
 
-<iframe
-  referrerpolicy="no-referrer" loading="lazy" height="750px"
-  src="https://vision.spb.ru/uxls/Магистры_доклады_в_семестре/Доклады в семестре по тематике практик.html">
-Счастливый пользователь, не знающий, что такое iframe...
-</iframe>
+{{ ext_table(src="https://vision.spb.ru/uxls/Магистры_доклады_в_семестре/Доклады в семестре по тематике практик.html") }}
 
 ## Общее про практики и ВКР
 

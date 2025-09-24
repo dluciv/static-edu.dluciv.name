@@ -42,7 +42,7 @@ favicon = "favicon.png"
 toc = true
 styles = ["mods.css"]
 # Extra scripts
-scripts = ["scripts/appmeta.js"]
+scripts = ["scripts/appmeta.js", "scripts/ext-table.js"]
 
 [extra.nav]
 show_feed = false

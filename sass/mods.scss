@@ -21,3 +21,11 @@ main {
         }
     }
 }
+
+ext-table {
+    table {
+       max-width: min(calc(var(--container-width) + 256px), 95%);
+           width: min(calc(var(--container-width) + 256px), 95%);
+       overflow-x: auto;
+    }
+}

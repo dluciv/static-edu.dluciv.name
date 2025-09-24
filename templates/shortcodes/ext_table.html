@@ -1,0 +1,9 @@
+{% if iframe | default(value=false) %}
+<iframe
+  referrerpolicy="no-referrer" loading="lazy" height="{{ height }}"
+  src="{{ src }}">
+⏳
+</iframe>
+{% else %}
+<ext-table src="{{ src }}">⏳</ext-table>
+{% endif %}
