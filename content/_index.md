@@ -1,6 +1,7 @@
 +++
 insert_anchor_links = "left"
 title = "Луцив Дмитрий Вадимович"
+description = "Луцив Д. В.: Образование"
 +++
 
 {% crt() %}

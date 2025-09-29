@@ -38,11 +38,12 @@ highlight_code = true
 # Put all your custom variables here
 # emoji_favicon = "🎓"
 favicon = "favicon.png"
+card = false
 # default_theme = "system"
 toc = true
 styles = ["mods.css"]
 # Extra scripts
-scripts = ["scripts/appmeta.js", "scripts/ext-table.js"]
+scripts = ["scripts/addmeta.js", "scripts/ext-table.js"]
 
 [extra.nav]
 show_feed = false
