@@ -1,6 +1,6 @@
 +++
 insert_anchor_links = "left"
-title = "Алгоритмы и структуры данных, сем. 5"
+title = "Алгоритмы и структуры данных, семстр 5"
 [extra]
 toc = true
 toc_sidebar = true

@@ -1,6 +1,6 @@
 +++
 insert_anchor_links = "left"
-title = "Алгоритмы и структуры данных, сем. 2"
+title = "Алгоритмы и структуры данных, семестр 2"
 [extra]
 toc = true
 toc_sidebar = true
