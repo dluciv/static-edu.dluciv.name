@@ -42,7 +42,14 @@
       const response = await fetch(url);
       const shtml = await response.text();
 
-      const ihtml = this.downgradeHeadings(shtml, 3); // понижаем на 3 уровня
+      const rhtml = this.hasAttribute('collapse') ? (
+        shtml.replaceAll("<hr>", "").replaceAll(
+          /<A NAME="(.+?)"><h1>(.+?)<\/h1><\/A>/g,
+          "<details><summary>$2</summary><a name=\"$1\"></a>"
+        ).replaceAll("</table>", "</table></details><hr />")
+      ) : shtml;
+
+      const ihtml = this.downgradeHeadings(rhtml, 3); // понижаем на 3 уровня
 
       this.innerHTML = `
         <div class="ext-table-wrapper">

@@ -3,5 +3,5 @@
   referrerpolicy="no-referrer" loading="lazy" height="{{ height }}"
   src="{{ src }}"><span style="text-align: center;">⏳</span></iframe>
 {% else %}
-<ext-table src="{{ src }}"><span style="text-align: center;">⏳</span></ext-table>
+<ext-table src="{{ src }}" {% if collapse | default(value=false) %}collapse{% endif %}><span style="text-align: center;">⏳</span></ext-table>
 {% endif %}
