@@ -21,11 +21,12 @@ description = "Луцив Дмитрий Вадимович: Образован�
 - [Доцент](https://se.math.spbu.ru/department/staff.html) [Кафедры системного программирования](https://se.math.spbu.ru/)
 - [Преподаватель](https://pureportal.spbu.ru/ru/organisations/---\(101d8248-e0f3-4205-9d78-05c3051b552c\)/persons.html)
   [Образовательного центра системного программирования](https://spbu.ru/openuniversity/documents/o-sozdanii-obrazovatelnogo-centra-sistemnogo-programmirovaniya-v-spbgu)
-<details class="closable"><summary>...</summary>
 
+{% details(summary="...") %}
 - Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
 - Учёный секретарь [Учёного совета Математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
-</details>
+{% end %}
+
 
 Расписание
 
