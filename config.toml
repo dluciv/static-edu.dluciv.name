@@ -1,7 +1,6 @@
 # The URL the site will be built for
-base_url = "https://edu.dluciv.name"
-# техническая ссылка:
-# base_url = "https://dluciv.github.io/static-edu.dluciv.name"
+base_url = "/"
+# base_url = "https://edu.dluciv.name"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
