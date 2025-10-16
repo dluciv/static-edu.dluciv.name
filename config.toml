@@ -72,4 +72,7 @@ links = [
 ]
 
 [extra.goatcounter]
-user = "edu-dluciv-name"
+user = "gr"
+host = "edu.dluciv.name"
+# -> gr.edu.dluciv.name
+# user = "edu-dluciv-name"
