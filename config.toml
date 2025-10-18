@@ -72,7 +72,8 @@ links = [
 ]
 
 [extra.goatcounter]
-user = "gr"
-host = "edu.dluciv.name"
-# -> gr.edu.dluciv.name
-# user = "edu-dluciv-name"
+# To show ad blocker, that we are fine: custom domain & not CNAME, but A+AAAA / ALIAS name
+user = "edn"
+host = "gr.vision.spb.ru"
+# -> edn.gr.vision.spb.ru
+# GC user = "edu-dluciv-name"
