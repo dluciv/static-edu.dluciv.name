@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="ru" >
+<head>
+	<!-- 2025-10-22 Wed 17:46 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="Луцив Дмитрий Вадимович" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#9a9996" />
+	<title>Архитектура ЭВМ - Луцив Дмитрий Вадимович</title>
+	<link rel="canonical" href="https://edu.dluciv.name/courses/comparch-b24/" /><link rel="icon" type="image/png" href="https://edu.dluciv.name/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://edu.dluciv.name/apple-touch-icon.png" />
+<style type="text/css">
+	:root {--accent-color: #6f8396;}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/katex.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/mods.css" />
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/closable.js"></script>
+			<script type="text/javascript" defer data-goatcounter="https://gr.edu.dluciv.name/count" src="https://edu.dluciv.name/count.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/auto-render.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex-init.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/search-fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/theme-switcher.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/addmeta.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/ext-table.js"></script>
+
+	<meta property="og:site_name" content="Луцив Дмитрий Вадимович" />
+	<meta property="og:title" content="Архитектура ЭВМ - Луцив Дмитрий Вадимович" />
+	<meta property="og:url" content="https://edu.dluciv.name/courses/comparch-b24/" />
+	<meta property="og:description" content="Луцив Дмитрий Вадимович" /><meta property="og:image" content="https://edu.dluciv.name/card.png" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://edu.dluciv.name">
+					<i class="icon"></i>Луцив Дмитрий Вадимович</a>
+			</li>
+			<li class="divider"></li><li>
+						<details class="closable">
+							<summary>📚 Материалы</summary>
+							<ul>
+										<li>
+											<a href="https://edu.dluciv.name/internships/masters/">💡 Практики и ВКР магистров</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b2/">🤖 Алгоритмы и структуры данных, 2-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b5/">🧠 Алгоритмы и структуры данных, 5-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/comparch-b24/"class="active">👨‍💻 Архитектура ЭВМ</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/modern-tt-m1/">🛠 Современные инструменты и технологии проргаммирования</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/nosql-b7/">🛢 Распределённая обработка информации и NoSQL БД</a>
+										</li></ul>
+						</details>
+			 		 </li>
+				<li id="search">
+					<button id="search-toggle" class="circle" title="Search">
+						<i class="icon"></i>
+					</button>
+				</li>
+
+<li id="language-switcher">
+	<details class="closable">
+		<summary class="circle" title="Language">
+			<i class="icon"></i>
+		</summary>
+		<ul><li>
+						<a lang="en" href="https:&#x2F;&#x2F;edu.dluciv.name/en/courses/comparch-b24/">English</a>
+					</li></ul>
+	</details>
+</li>
+
+				<li id="theme-switcher">
+					<details class="closable">
+						<summary class="circle" title="Theme">
+							<i class="icon"></i>
+						</summary>
+						<ul>
+							<li>
+								<button class="circle" id="theme-light" title="Switch to Light Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-dark" title="Switch to Dark Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-system" title="Use System Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+						</ul>
+					</details>
+				</li>
+		</ul>
+	</nav>
+		<div id="search-container">
+			<label for="search-bar" class="visually-hidden">Search</label>
+			<input id="search-bar" placeholder="Search for…" autocomplete="off" type="search" disabled>
+			<div id="search-results-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+</header>
+<div id="sidebar">
+			<div><h2>Содержание</h2>
+		<ul><li>
+					<a href="https://edu.dluciv.name/courses/comparch-b24/#materialy">Материалы</a></li><li>
+					<a href="https://edu.dluciv.name/courses/comparch-b24/#ekzamen">Экзамен</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/comparch-b24/#primernye-voprosy-k-ekzamenu-2025">Примерные вопросы к экзамену (2025)</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/comparch-b24/#kriterii-otsenivaniia">Критерии оценивания</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/comparch-b24/#instrumenty">Инструменты</a></li><li>
+					<a href="https://edu.dluciv.name/courses/comparch-b24/#predydushchie-versii-kursa">Предыдущие версии курса</a></li><li>
+					<a href="https://edu.dluciv.name/courses/comparch-b24/#spisok-informatsionnykh-istochnikov">Список информационных источников</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/comparch-b24/#literatura">Литература</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/comparch-b24/#onlain-kursy">Онлайн-курсы</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/comparch-b24/#mul-timedia">Мультимедиа</a>
+								</li></ul></li></ul></div>
+		</div><main id="main-content">
+		
+<h1>Архитектура ЭВМ</h1><p>Для программ:</p>
+<ul>
+<li>Программная инженерия</li>
+<li>Технологии программирования</li>
+</ul>
+<h2 id="materialy"><a class="zola-anchor" href="#materialy" aria-label="Anchor link for: materialy"><i class="icon"></i></a>
+Материалы</h2>
+<ul>
+<li><a href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/slides">Слайды</a></li>
+<li><a href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/circuits">Электронные схемы</a></li>
+<li><a href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/examples">Примеры</a></li>
+</ul>
+<!--
+- [Чатик VK Teams](https://myteam.mail.ru/profile/AoLJ35xESHCRJgy_pg0)
+- [Табличка с успехами](https://disk.yandex.ru/i/E0ZKv8xnE_3yRg)
+-->
+<h2 id="ekzamen"><a class="zola-anchor" href="#ekzamen" aria-label="Anchor link for: ekzamen"><i class="icon"></i></a>
+Экзамен</h2>
+<h3 id="primernye-voprosy-k-ekzamenu-2025"><a class="zola-anchor" href="#primernye-voprosy-k-ekzamenu-2025" aria-label="Anchor link for: primernye-voprosy-k-ekzamenu-2025"><i class="icon"></i></a>
+Примерные вопросы к экзамену (2025)</h3>
+<p>Часть I</p>
+<ol>
+<li>Цифровые и аналоговые ВС и СПД: преимущества и недостатки.</li>
+<li>Виды модуляции, теоремы Шеннона и Котельникова.</li>
+<li>История вычислительной техники: табуляторы, модели Эйкена и
+Фон-Неймана.</li>
+<li>Закон Мура и поколения ЭВМ. Краткая история отечественных ЭВМ.</li>
+<li>Шины, периферийные устройства и контроллеры.</li>
+<li>Аппаратные прерывания, DMA (MMIO) для устройств хранения данных и
+устройств реального времени; автоматическая и «ручная» настройка
+оборудования.</li>
+<li>Исторически значимые системные шины.</li>
+<li>Необходимость асихронных последовательных шин, примеры асинхронных
+шин.</li>
+<li>Тактовый сигнал, тактовая частота, способы синхронизации.</li>
+<li>Внутренняя и внешняя разрядность процессора, шин, памяти.</li>
+<li>Прямая и банковая модели адресного пространства.</li>
+<li>Сегментная модель адресного пространства.</li>
+<li>Страничная модель адресного пространства. Виртуальная память на
+основе страничной адресации.</li>
+<li>Cмешанная модель адресного пространства на примере 80386.</li>
+<li>Модели адресного пространства ARM и RISC-V.</li>
+<li>Логические вентили: их конструкция, возможности и применение.</li>
+</ol>
+<p>Часть II</p>
+<ol>
+<li>Логические схемы: АЛУ, схемы сдвига, полностью про сумматоры.</li>
+<li>Логические схемы: арифметика, от вычитания до деления.</li>
+<li>Триггеры: RS, D, MS</li>
+<li>Триггеры: JK, T.</li>
+<li>Регистры: конструкция и назначение сдвигающего регистра, счетчики.</li>
+<li>Регистры: чтение и запись, передача данных.</li>
+<li>Виды энергонезависимой памяти. Эволюция.</li>
+<li>Специфика твердотельных накопителей в сравнении с механическими
+жёсткими дисками.</li>
+<li>Защита энергонезависимой памяти. Технология RAID. Использование для
+ускорения операций и обеспечения надежности.</li>
+<li>Системы хранения данных. Основные задачи и типы организации (DAS,
+NAS, SAN).</li>
+<li>Организация RAID-6, математические принципы, способы осуществления
+записи.</li>
+<li>Вычислительный конвейер; конфликты; пузырьки и торможение конвейера;
+особенности для CISC и RISC.</li>
+<li>Суперскалярные процессоры и процессоры с внеочередным исполнением
+инструкций.</li>
+<li>Регистровый файл и система команд Intel x86.</li>
+<li>Регистровый файл, система команд и формат машинного кода RISC-V.</li>
+<li>Вдумчивые и конструктивные предложения и замечания по программе
+курса.</li>
+</ol>
+<h3 id="kriterii-otsenivaniia"><a class="zola-anchor" href="#kriterii-otsenivaniia" aria-label="Anchor link for: kriterii-otsenivaniia"><i class="icon"></i></a>
+Критерии оценивания</h3>
+<p>Пересчёт $R \in [0, 1] = [0\%, 100\%]$ в оценку по <a href="https://spbu.ru/openuniversity/documents/o-primenenii-sistemy-ocenivaniya-v-sootvetstvii-s-trebovaniyami-ects">приказу 7293/1 от 20.07.2018</a>.</p>
+<p>Составляющие:</p>
+<ul>
+<li>теоретический зачёт из двух вопросов — $T=(T_1+T_2+\mathrm{Доп~или~вопросы~на~определения})/3$;</li>
+<li>онлайн-курс (ниже) — $C \in [0, 1] = [0\%, 100\%]$ — <a href="https://hwproj.ru/courses/50043">загружайте сюда</a>;</li>
+<li>бонус для особо отличившихся — $B \in \{0, 1\}$ — эквивалент «+1 весёлая буква ECTS».</li>
+</ul>
+<p>Итог:</p>
+<p>$$ R = \min(\operatorname{if} (T \ge \frac{1}{4}) \operatorname{then} 1 \operatorname{else} \frac{1}{2}, T + \frac{3}{5} C + \frac{1}{10} B) $$</p>
+<h2 id="instrumenty"><a class="zola-anchor" href="#instrumenty" aria-label="Anchor link for: instrumenty"><i class="icon"></i></a>
+Инструменты</h2>
+<ol>
+<li><a href="https://github.com/reds-heig/logisim-evolution">Logisim Evolution</a></li>
+<li><a href="https://godbolt.org/">Compiler Explorer</a></li>
+<li><a href="http://shell-storm.org/online/Online-Assembler-and-Disassembler/">Online Assembler and Disassembler</a></li>
+<li><a href="http://ripes.me/Ripes/">Эмулятор RISC-V Ripes</a></li>
+</ol>
+<h2 id="predydushchie-versii-kursa"><a class="zola-anchor" href="#predydushchie-versii-kursa" aria-label="Anchor link for: predydushchie-versii-kursa"><i class="icon"></i></a>
+Предыдущие версии курса</h2>
+<ul>
+<li><a href="https://sites.google.com/view/edu2018-dluciv-name/archive/2021-2022/2021-22-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC?authuser=0">09.04.00 ...–2022</a></li>
+<li><a href="https://sites.google.com/view/edu2018-dluciv-name/archive/before/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D0%B2%D1%8B%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D1%85-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC-231000%D0%B1?authuser=0">231000</a></li>
+<li><a href="https://sites.google.com/view/edu2018-dluciv-name/archive/before/architecture-cs220-010400?authuser=0">010400</a></li>
+</ul>
+<h2 id="spisok-informatsionnykh-istochnikov"><a class="zola-anchor" href="#spisok-informatsionnykh-istochnikov" aria-label="Anchor link for: spisok-informatsionnykh-istochnikov"><i class="icon"></i></a>
+Список информационных источников</h2>
+<h3 id="literatura"><a class="zola-anchor" href="#literatura" aria-label="Anchor link for: literatura"><i class="icon"></i></a>
+Литература</h3>
+<ol>
+<li>Орлов С.А., Цилькер Б.Я. Организация ЭВМ и систем: Учебник для
+вузов. 2-е изд. — СПб .:  Питер, 2011. — 688 с.</li>
+<li>Хорошевский В.Г. Архитектура вычислительных систем.: Учеб.
+пособие. 2-e изд., перераб. и доп. M.: Изд-во МГТУ им. H.Э.
+Баумана, 2008. 520 c.</li>
+<li>Код. Тайный язык информатики / Чарльз Петцольд ; пер. с англ. О. Сивченко ; [науч.
+ред. В. Артюхин, А. Гизатулин]. — М. : Манн, Иванов и Фербер, 2019. — 448 с.</li>
+<li>Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд. — СПб.:
+Питер, 2013. — 816 с.</li>
+<li>Терехов А.Н. УВК «Самсон» — базовая ЭВМ РВСН // Труды
+SORUCOM-2011 – 2011. – С. 282-286.</li>
+<li>Сара Л. Харрис, Дэвид Харрис. Цифровая схемотехника и архитектура
+компьютера: RISC-V / пер. с англ. В. С. Яценкова, А. Ю. Романова;
+под ред. А. Ю. Романова. – М.: ДМК Пресс, 2021. – 810 с.: ил.</li>
+</ol>
+<h3 id="onlain-kursy"><a class="zola-anchor" href="#onlain-kursy" aria-label="Anchor link for: onlain-kursy"><i class="icon"></i></a>
+Онлайн-курсы</h3>
+<p>... рекомендованные в качестве дополнительных материалов</p>
+<ol>
+<li><a href="https://en.coursera.org/learn/comparch">Computer Architecture</a> <em>Princeton University</em></li>
+</ol>
+<h3 id="mul-timedia"><a class="zola-anchor" href="#mul-timedia" aria-label="Anchor link for: mul-timedia"><i class="icon"></i></a>
+Мультимедиа</h3>
+<ol>
+<li><a href="http://en.wikipedia.org/wiki/Pirates_of_the_Silicon_Valley">Pirates of Silicon Valley</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Revolution_os">Revolution OS</a></li>
+<li><a href="https://youtu.be/3bTqWsVqyzE">Stanley and Stella in Breaking The Ice</a> (1987)
+— <em><a href="http://en.wikipedia.org/wiki/Stanley_and_Stella_in:_Breaking_the_Ice">синтезировано на LISP-машине</a></em></li>
+<li><a href="http://www.youtube.com/watch?v=AOqfWj0HqNE&amp;feature=related">Pierre Henry «Psyché Rock»</a>* (1967)
+— <em>примеры различных электронных компонент конца 60-х</em></li>
+<li><a href="http://www.youtube.com/watch?v=OYecfV3ubP8">Реклама Apple Macintosh «1984»</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Micro_Men">Micro Men</a></li>
+<li><a href="http://www.homebrewcpu.com/">Homebrew CPU</a> — <em>примеры машин,
+ЦП которых были самостоятельно спроектированы и изготовлены
+энтузиастами</em></li>
+<li><a href="http://www.leningrad.su/museum/">Музей Сергея Фролова</a></li>
+</ol>
+<blockquote class="note">
+	<p class="alert-title">
+		<i class="icon"></i>Note</p>
+	<p><a href="https://sites.google.com/view/edu2018-dluciv-name/Home/architecture?utm_source=edu.dluciv.name&amp;utm_campaign=dluciv.name_domain">Эта страница доступна на старом сайте</a></p>
+
+</blockquote>
+
+
+		
+	<span id="search-index" class="hidden">https://edu.dluciv.name/search_index.ru.json</span>
+	<span id="more-matches-text" class="hidden">$MATCHES more matches</span>
+
+	</main>
+	<footer id="site-footer">
+		<nav>
+			<ul>
+					<li>
+						<a href="https:&#x2F;&#x2F;se.math.spbu.ru&#x2F;" rel="" class="external">Кафедра системного программирования</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;math.spbu.ru&#x2F;" rel="" class="external">Матмех</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;spbu.ru&#x2F;" rel="" class="external">СПбГУ</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;github.com&#x2F;dluciv&#x2F;static-edu.dluciv.name" rel="" class="external">Нашли неточность?..</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;duckquill.daudix.one&#x2F;" rel="" class="external">🦆</a>
+					</li>
+			</ul>
+		</nav>
+</footer>
+
+
+</body>
+</html>
