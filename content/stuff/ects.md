@@ -4,6 +4,7 @@ title = "Оценивание по методике ECTS"
 [extra]
 toc = true
 toc_sidebar = true
+katex = true
 +++
 
 ## Пересчёт…
