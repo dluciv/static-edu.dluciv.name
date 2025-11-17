@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="ru" >
+<head>
+	<!-- 2025-11-17 Mon 17:53 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="Луцив Дмитрий Вадимович" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#9a9996" />
+	<title>Алгоритмы и структуры данных, семстр 5 - Луцив Дмитрий Вадимович</title>
+	<link rel="canonical" href="https://edu.dluciv.name/courses/algds-b5/" /><link rel="icon" type="image/png" href="https://edu.dluciv.name/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://edu.dluciv.name/apple-touch-icon.png" />
+<style type="text/css">
+	:root {--accent-color: #6f8396;}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/mods.css" />
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/closable.js"></script>
+			<script type="text/javascript" defer data-goatcounter="https://gr.edu.dluciv.name/count" src="https://edu.dluciv.name/count.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/search-fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/theme-switcher.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/addmeta.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/ext-table.js"></script>
+
+	<meta property="og:site_name" content="Луцив Дмитрий Вадимович" />
+	<meta property="og:title" content="Алгоритмы и структуры данных, семстр 5 - Луцив Дмитрий Вадимович" />
+	<meta property="og:url" content="https://edu.dluciv.name/courses/algds-b5/" />
+	<meta property="og:description" content="Луцив Дмитрий Вадимович" /><meta property="og:image" content="https://edu.dluciv.name/card.png" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://edu.dluciv.name">
+					<i class="icon"></i>Луцив Дмитрий Вадимович</a>
+			</li>
+			<li class="divider"></li><li>
+						<details class="closable">
+							<summary>📚 Материалы</summary>
+							<ul>
+										<li>
+											<a href="https://edu.dluciv.name/internships/masters/">💡 Практики и ВКР магистров</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b2/">🤖 Алгоритмы и структуры данных, 2-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b5/"class="active">🧠 Алгоритмы и структуры данных, 5-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/comparch-b24/">👨‍💻 Архитектура ЭВМ</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/modern-tt-m1/">🛠 Современные инструменты и технологии проргаммирования</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/nosql-b7/">🛢 Распределённая обработка информации и NoSQL БД</a>
+										</li></ul>
+						</details>
+			 		 </li>
+				<li id="search">
+					<button id="search-toggle" class="circle" title="Search">
+						<i class="icon"></i>
+					</button>
+				</li>
+
+<li id="language-switcher">
+	<details class="closable">
+		<summary class="circle" title="Language">
+			<i class="icon"></i>
+		</summary>
+		<ul><li>
+						<a lang="en" href="https:&#x2F;&#x2F;edu.dluciv.name/en/courses/algds-b5/">English</a>
+					</li></ul>
+	</details>
+</li>
+
+				<li id="theme-switcher">
+					<details class="closable">
+						<summary class="circle" title="Theme">
+							<i class="icon"></i>
+						</summary>
+						<ul>
+							<li>
+								<button class="circle" id="theme-light" title="Switch to Light Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-dark" title="Switch to Dark Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-system" title="Use System Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+						</ul>
+					</details>
+				</li>
+		</ul>
+	</nav>
+		<div id="search-container">
+			<label for="search-bar" class="visually-hidden">Search</label>
+			<input id="search-bar" placeholder="Search for…" autocomplete="off" type="search" disabled>
+			<div id="search-results-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+</header>
+<div id="sidebar">
+			<div><h2>Содержание</h2>
+		<ul><li>
+					<a href="https://edu.dluciv.name/courses/algds-b5/#materialy">Материалы</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#materialy-lektsii">Материалы лекций</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#zadaniia-i-primery">Задания и примеры</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#temy-prakticheskikh-zaniatii">Темы практических занятий</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b5/#voprosy-k-ekzamenu-osen-2024">Вопросы к экзамену, осень 2024</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#chast-i">Часть I</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#chast-ii">Часть II</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b5/#temy-dlia-dokladov-i-master-klassov">Темы для докладов и мастер-классов</a></li><li>
+					<a href="https://edu.dluciv.name/courses/algds-b5/#informatsionnye-istochniki">Информационные источники</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#rekomendovannye-onlain-kursy">Рекомендованные онлайн-курсы</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/algds-b5/#spisok-literatury-i-ne-literatury">Список литературы и не литературы</a>
+								</li></ul></li></ul></div>
+		</div><main id="main-content">
+		
+<h1>Алгоритмы и структуры данных, семстр 5</h1><p>Для программы «Математика и компьютерные науки»</p>
+<h2 id="materialy"><a class="zola-anchor" href="#materialy" aria-label="Anchor link for: materialy"><i class="icon"></i></a>
+Материалы</h2>
+<h3 id="materialy-lektsii"><a class="zola-anchor" href="#materialy-lektsii" aria-label="Anchor link for: materialy-lektsii"><i class="icon"></i></a>
+Материалы лекций</h3>
+<ol>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.01.caches">Кэширование</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.02.randomized">Рандомизация</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.03.compression">Алгоритмы сжатия</a></li>
+<li>Блокнот: <a href="https://github.com/dluciv/lections-everywhere/tree/master/jupyter-notebooks/11.RDBMS_ORM">Реляционные БД и ORM</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.05.distributed_nosql">Производительность обработки данных, распределённые СУБД, NoSQL Movement</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.06.norel_overvivew">Виды нереляционных СУБД</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.07.techs_patterns">Техники и паттерны распределённого хранения данных и программирования</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.08.cspc">Консенсус, CAP, PACELC</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.09.webgraphs">Вебграфы</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.10.hash_functions_again">И снова хэш-функции</a></li>
+<li>Слайды: <a href="https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b5.11.fuzzy_hashing_again">И снова нечёткое хэширование</a></li>
+</ol>
+<h3 id="zadaniia-i-primery"><a class="zola-anchor" href="#zadaniia-i-primery" aria-label="Anchor link for: zadaniia-i-primery"><i class="icon"></i></a>
+Задания и примеры</h3>
+<p>Опубликованы <a href="https://github.com/dluciv/algs_and_data_structs-spbu-CB.5001/tree/master/examples/b5">здесь</a></p>
+<h3 id="temy-prakticheskikh-zaniatii"><a class="zola-anchor" href="#temy-prakticheskikh-zaniatii" aria-label="Anchor link for: temy-prakticheskikh-zaniatii"><i class="icon"></i></a>
+Темы практических занятий</h3>
+<ol>
+<li>
+<p>Немного о кэшировании и моделировании кэширования</p>
+</li>
+<li>
+<p>Рандомизация:</p>
+<ul>
+<li>точность и производительность метода Монте-Карло</li>
+<li>случайные базисы в многомерных пространствах</li>
+<li>повышение точности измерений</li>
+<li>случайные деревья</li>
+<li>вероятностная проверка на простоту</li>
+</ul>
+</li>
+<li>
+<p>Примеры реализации алгоритмов сжатия</p>
+</li>
+<li>
+<p>Berkeley DB: индексация и доступ к данным</p>
+</li>
+<li>
+<p>Locality Sensitive Hashing</p>
+</li>
+</ol>
+<h2 id="voprosy-k-ekzamenu-osen-2024"><a class="zola-anchor" href="#voprosy-k-ekzamenu-osen-2024" aria-label="Anchor link for: voprosy-k-ekzamenu-osen-2024"><i class="icon"></i></a>
+Вопросы к экзамену, осень 2024</h2>
+<h3 id="chast-i"><a class="zola-anchor" href="#chast-i" aria-label="Anchor link for: chast-i"><i class="icon"></i></a>
+Часть I</h3>
+<ol>
+<li>Собственные свойства и количественные показатели работы кэшей</li>
+<li>Принцип Белади, тривиальные стратегии вытеснения; аномалия Белади;
+Cache-obvious алгоритмы</li>
+<li>Вариации стратегии LRU; мемоизация</li>
+<li>Splay-дерево, T-дерево</li>
+<li>Что такое и зачем могут пригодиться субоптимальные решения; методы
+Монте-Карло и Лас-Вегаса</li>
+<li>Тасование Фишера-Йетса: оригинальное описание; алгоритм
+Дюрштенфельда</li>
+<li>Формулировка и смысл теоремы Котельникова</li>
+<li>Принцип Compressive Sensing</li>
+<li>Повышение точности при помощи рандомизации с примером</li>
+<li>Способы рандомизированного поиска пути между препятствиями; Random
+Tree, Rapidly Exploring Random Tree</li>
+<li>Муравьиные алгоритмы</li>
+<li>Вероятностные тесты на простоту: где и зачем нужны; тесты Ферма и
+Соловея-Штрассена</li>
+<li>Понятие информационной энтропии</li>
+<li>Код Шеннона и алгоритм Хаффмана</li>
+<li>Идея и алгоритм арифметического кодирования</li>
+<li>Происхождение, принцип и области применения сжатия RLE</li>
+<li>Алгоритмы сжатия LZW</li>
+<li>Прямое и обратное преобразование Барроуза-Вилера</li>
+<li>Закон Мура в 1960-е и сейчас, закон Амдала; топологии распределённых
+вычислителей и решаемых ими задач</li>
+</ol>
+<h3 id="chast-ii"><a class="zola-anchor" href="#chast-ii" aria-label="Anchor link for: chast-ii"><i class="icon"></i></a>
+Часть II</h3>
+<ol>
+<li>Предпосылки NoSQL и фактическое значение этого термина</li>
+<li>Принципы ACID, BASE; сильная согласованность в конечном счёте</li>
+<li>Графовые и дедуктивные СУБД; документоориентированные СУБД</li>
+<li>СУБД типа ключ-значение; колоночные СУБД</li>
+<li>Map-Reduce, Map-Reduce-Combine; пример на какой-нибудь
+документоориентированной СУБД</li>
+<li>Устройства кластерных файловых систем, импорт данных</li>
+<li>Page Rank, как пример задачи на Вебграфе; Google Matrix и Pregel</li>
+<li>Понятие распределённого консенсуса; протоколы PAXOS и RAFT</li>
+<li>Теоремы CAP и PACELC</li>
+<li>Универсальные и совершенные хэш-функции, совершенные хэш-таблицы</li>
+<li>Принципы блочного шифрования; криптографическая функция сжатия</li>
+<li>Принципы и примеры хэш-функций класса Меркла-Дамгора; атака
+удлиннением сообщения</li>
+<li>Принципы и примеры хэш-функций класса Keccak</li>
+<li>Принципы и примеры хэш-функций класса SWIFFT</li>
+<li>Мера Жаккара; принципы MinHash, SimHash и фильтра Блума; оценка их
+точности</li>
+<li>Метрика Хэмминга; принцип Locality Sensitive Hashing и его
+применения для поиска данных</li>
+<li>Количественный анализ вебграфов с использованием моделей
+Барабаши-Альберт и Боллобаша-Риордана</li>
+<li>Количественный анализ вебграфов с использованием моделей
+Бакли-Остгуса и копирования</li>
+<li>Вдумчивые и конструктивные замечания по содержанию курса</li>
+</ol>
+<h2 id="temy-dlia-dokladov-i-master-klassov"><a class="zola-anchor" href="#temy-dlia-dokladov-i-master-klassov" aria-label="Anchor link for: temy-dlia-dokladov-i-master-klassov"><i class="icon"></i></a>
+Темы для докладов и мастер-классов</h2>
+<ol>
+<li>Количественные измерения работы кэшей разных размеров с разными
+стратегиями для известных алгоритмов — самостоятельно или с
+использованием Mimircache
+<ul>
+<li>При кэшировании результатов части реализованных функций</li>
+<li>При кэшировании результатов доступа к массиву (имитация работы
+ОЗУ)</li>
+</ul>
+</li>
+<li>Деревья RRT*</li>
+<li>Язык Julia</li>
+<li>Compressive Sensing — испытание доработанных примеров:
+посоревнуйтесь в сжатии с JPEG (на последнем этапе можно
+дополнительно округлить числа с плавающей запятой и использовать
+архиваторы)</li>
+<li>Соревнование в генерации и проверке простых чисел — практически
+любыми способами</li>
+<li>Демо: иллюстрация работы муравьиных алгоритмов и решаемых задач</li>
+<li>Доклад по истории алгоритмов сжатия и про один из алгоритмов, не
+описанных на лекции, можно основываясь на
+<a href="https://ethw.org/History_of_Lossless_Data_Compression_Algorithms">этом метариале</a></li>
+<li>Доклад: организация эффективного хранения ключей и данных
+произвольной длины в Berkeley DB</li>
+<li>Демо: корректный бенчмарк Berkeley DB: HASH vs BTREE</li>
+</ol>
+<h2 id="informatsionnye-istochniki"><a class="zola-anchor" href="#informatsionnye-istochniki" aria-label="Anchor link for: informatsionnye-istochniki"><i class="icon"></i></a>
+Информационные источники</h2>
+<h3 id="rekomendovannye-onlain-kursy"><a class="zola-anchor" href="#rekomendovannye-onlain-kursy" aria-label="Anchor link for: rekomendovannye-onlain-kursy"><i class="icon"></i></a>
+Рекомендованные онлайн-курсы</h3>
+<ul>
+<li>На все семестры <a href="https://en.coursera.org/specializations/data-structures-algorithms">Data Structures and Algorithms</a> University
+of California San Diego; National Research University Higher School of Economics</li>
+</ul>
+<h3 id="spisok-literatury-i-ne-literatury"><a class="zola-anchor" href="#spisok-literatury-i-ne-literatury" aria-label="Anchor link for: spisok-literatury-i-ne-literatury"><i class="icon"></i></a>
+Список литературы и не литературы</h3>
+<ul>
+<li>Конспект.</li>
+<li>Дж. Д. Ульман А. В. Ахо, Дж. Э. Хопкрофт. Структуры данных и
+алгоритмы. Издательский дом «Вильямс», 2000.</li>
+<li>Дональд Э. Кнут. Искусство Программирования. Издательский дом
+«Вильямс», 2000.</li>
+<li>Томас Кормен, Чарльз Лейзерсон, Рональд Ривест. Алгоритмы: построение
+и анализ. М.: МЦНМО, 1999.</li>
+<li>Кубенский А. А. Структуры и алгоритмы обработки данных.
+Объектно-ориентированный подход и реализация на C++. СПб.:
+БХВ-Петербург, 2004.</li>
+<li>Тоби Сегаран. <a href="https://books.google.ru/books?isbn=5932861193">Программируем коллективный разум</a>: [пер. с
+англ.] // М. — Символ-Плюс, 2008, 368 с. </li>
+<li>Кузнецов С. Д. <a href="http://citforum.ru/programming/theory/sorting/sorting2.shtml">Методы сортировки и поиска</a>.
+ИСП РАН, Центр Информационных Технологий.</li>
+<li>Материалы лектора: приложение к данной странице; кому-то может
+показаться, что это лучше, чем ничего.</li>
+</ul>
+<blockquote class="note">
+	<p class="alert-title">
+		<i class="icon"></i>Note</p>
+	<p><a href="https://sites.google.com/view/edu2018-dluciv-name/Home/algorythms-s5?utm_source=edu.dluciv.name&amp;utm_campaign=dluciv.name_domain">Эта страница доступна на старом сайте</a></p>
+
+</blockquote>
+
+
+		
+	<span id="search-index" class="hidden">https://edu.dluciv.name/search_index.ru.json</span>
+	<span id="more-matches-text" class="hidden">$MATCHES more matches</span>
+
+	</main>
+	<footer id="site-footer">
+		<nav>
+			<ul>
+					<li>
+						<a href="https:&#x2F;&#x2F;se.math.spbu.ru&#x2F;" rel="" class="external">Кафедра системного программирования</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;math.spbu.ru&#x2F;" rel="" class="external">Матмех</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;spbu.ru&#x2F;" rel="" class="external">СПбГУ</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;github.com&#x2F;dluciv&#x2F;static-edu.dluciv.name" rel="" class="external">Нашли неточность?..</a>
+					</li>
+					<li>
+						<a href="https:&#x2F;&#x2F;duckquill.daudix.one&#x2F;" rel="" class="external">🦆</a>
+					</li>
+			</ul>
+		</nav>
+</footer>
+
+
+</body>
+</html>
