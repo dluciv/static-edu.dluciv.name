@@ -13,7 +13,7 @@ katex = true
 
 ## Материалы
 
-- [Слайды](https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/slides)
+- [Слайды](https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/slides.pdf)
 - [Электронные схемы](https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/circuits)
 - [Примеры](https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/examples)
 
