@@ -130,11 +130,11 @@ $$ R = \min(\operatorname{if} (T \ge \frac{1}{4}) \operatorname{then} 1 \op
 
 1.  [Pirates of Silicon Valley](http://en.wikipedia.org/wiki/Pirates_of_the_Silicon_Valley)
 2.  [Revolution OS](http://en.wikipedia.org/wiki/Revolution_os)
-3.  [Stanley and Stella in Breaking The Ice](https://youtu.be/3bTqWsVqyzE) (1987)
+3.  [Stanley and Stella in Breaking The Ice](/goto/yt#yt-3bTqWsVqyzE) (1987)
     — *[синтезировано на LISP-машине](http://en.wikipedia.org/wiki/Stanley_and_Stella_in:_Breaking_the_Ice)*
-4.  [Pierre Henry «Psyché Rock»](http://www.youtube.com/watch?v=AOqfWj0HqNE&feature=related)* (1967)
+4.  [Pierre Henry «Psyché Rock»](/goto/yt#yt-DEewNHWgqFU)* (1967)
     — *примеры различных электронных компонент конца 60-х*
-5.  [Реклама Apple Macintosh «1984»](http://www.youtube.com/watch?v=OYecfV3ubP8)
+5.  [Реклама Apple Macintosh «1984»](/goto/yt#yt-OYecfV3ubP8)
 6.  [Micro Men](http://en.wikipedia.org/wiki/Micro_Men)
 7.  [Homebrew CPU](http://www.homebrewcpu.com/) — *примеры машин,
     ЦП которых были самостоятельно спроектированы и изготовлены

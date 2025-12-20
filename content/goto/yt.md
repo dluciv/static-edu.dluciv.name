@@ -12,8 +12,8 @@ description = "YouTube → RuTube, VK Video, ..."
 - [YouTube](https://youtu.be/kwSN7edZZnM), [YouTube](https://youtu.be/jmtYW1lDP8M)
 - [VK Видео](https://vkvideo.ru/video-214290604_456239027?list=ln-zIROJIKHRNIKFTtyhT),
   [VK Видео](https://vkvideo.ru/video-214290604_456239022?list=ln-SCft1664M1l0YMo3fH)
-- [RuTube](https://rutube.ru/video/private/5fb509115de9c54ca872103dd9dbe53f/?p=o_TIqQoqL7E1mhaxj39wMg),
-  RuTube?
+- [RuTube](https://rutube.ru/video/private/1cad2ceafc52fde5e4bd6fa221e17667/?p=y9KOVSkwblrRVA5_OscJfQ)
+  <!-- RuTube? -->
 
 ### Быстрый релейный компьютер {#yt-5hhbGBlP3_4}
 
@@ -25,7 +25,7 @@ description = "YouTube → RuTube, VK Video, ..."
 
 - [YouTube](https://youtu.be/gYqF6-h9Cvg)
 - [VK Видео](https://vkvideo.ru/video-214290604_456239023?list=ln-uMapkJzhrysix1f6O5)
-- RuTube?
+  <!-- RuTube? -->
 
 ### Pierre Henry, Psyché Rock {#yt-DEewNHWgqFU}
 
@@ -37,7 +37,7 @@ description = "YouTube → RuTube, VK Video, ..."
 
 - [YouTube](https://youtu.be/EzyXMEpq4qw)
 - [VK Видео](https://vkvideo.ru/video80443356_168229883)\*
-- RuTube?
+  <!-- RuTube? -->
 
 ### Работа диода и биполярного транзистора {#yt-OMGdSCaMVD0}
 
@@ -73,10 +73,21 @@ description = "YouTube → RuTube, VK Video, ..."
 
 - [YouTube](https://youtu.be/dougISKs2vQ)
 - [VK Видео](https://vkvideo.ru/video-214290604_456239024?list=ln-PrLbFKDsTaYfrQTTai)
-- RuTube?
+  <!-- RuTube? -->
 
 ### RAID из дискет {#yt-Uxj7So3h-lw}
 
 - [YouTube](https://youtu.be/Uxj7So3h-lw)
 - [VK Видео](https://vkvideo.ru/video-214290604_456239032?list=ln-USBc69HAZEg4jgjfCX)
 - [RuTube](https://rutube.ru/video/private/d2f19ba97a63d8cb713a23dfeac77093/?p=SZcqE-b98pyKN_ow-Zps1Q)
+
+### Stanley & Stella in Breaking The Ice (1987) {#yt-3bTqWsVqyzE}
+
+- [YouTube](https://youtu.be/3bTqWsVqyzE)
+- [VK Видео](https://vkvideo.ru/video-94385154_456239117)\*
+
+### Реклама Apple Macintosh «1984» {#yt-OYecfV3ubP8}
+
+- [YouTube](https://youtu.be/OYecfV3ubP8)
+- [VK Видео](https://vkvideo.ru/video-1981624_120977218)\*
+- [RuTube](https://rutube.ru/video/8f96fdc65a3c582663a338b3e0b18cfe/?r=wd)\*
