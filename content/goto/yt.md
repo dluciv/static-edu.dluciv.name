@@ -15,6 +15,10 @@ description = "YouTube → RuTube, VK Video, ..."
 - [RuTube](https://rutube.ru/video/private/1cad2ceafc52fde5e4bd6fa221e17667/?p=y9KOVSkwblrRVA5_OscJfQ)
   <!-- RuTube? -->
 
+### Модуляция и теорема Шеннона {#yt--piespM0M-k}
+
+- [YouTube](https://youtu.be/-piespM0M-k)
+
 ### Быстрый релейный компьютер {#yt-5hhbGBlP3_4}
 
 - [YouTube](https://youtu.be/5hhbGBlP3_4)
