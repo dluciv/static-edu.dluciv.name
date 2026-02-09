@@ -18,6 +18,7 @@ description = "YouTube → RuTube, VK Video, ..."
 ### Модуляция и теорема Шеннона {#yt--piespM0M-k}
 
 - [YouTube](https://youtu.be/-piespM0M-k)
+- [VK Video](https://vkvideo.ru/video-214290604_456239033?list=ln-0kaHfcFL300RKw2WiT)
 
 ### Быстрый релейный компьютер {#yt-5hhbGBlP3_4}
 
