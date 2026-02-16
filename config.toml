@@ -28,10 +28,10 @@ description = "Dmitry V. Luciv"
 generate_feeds = false
 taxonomies = [{ name = "tags", feed = false }]
 
-[markdown]
+# [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight = true
+# highlight_code = true
 
 [extra]
 # Put all your custom variables here
