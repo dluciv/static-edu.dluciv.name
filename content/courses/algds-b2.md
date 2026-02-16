@@ -18,20 +18,20 @@ katex = true
 
 Слайды по ссылкам практически точно совпадают с теми, которые, показываются на лекциях. Но всё может поменяться 🧔🏻.
 
-1.  [От символов к байтам и
-    обратно](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.01.symbols-encodings)
-2.  [Числа: точность, неотрицательные системы счисления, дополнительный
-    код](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.02.numbers)
-3.  [Числа с плавающей запятой: представление, распределение; комплексные
-    числа](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.03.fpnumbers)
-4.  [Булева и многозначные логики; cимметричные системы счисления; троичная
-    информатика](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.04.logic_and_trinary)
-5.  [Линейные
+1.  [Линейные
     контейнеры](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.05.linear_containers)
-6.  [Бинарные
+2.  [Бинарные
     деревья](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.06.trees)
-7.  [Сильно ветвящиеся
+3.  [Сильно ветвящиеся
     деревья](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.07.heavily_branching_trees)
+4.  [От символов к байтам и
+    обратно](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.01.symbols-encodings)
+5.  [Числа: точность, неотрицательные системы счисления, дополнительный
+    код](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.02.numbers)
+6.  [Числа с плавающей запятой: представление, распределение; комплексные
+    числа](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.03.fpnumbers)
+7.  [Булева и многозначные логики; cимметричные системы счисления; троичная
+    информатика](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.04.logic_and_trinary)
 8.  [Хэш-функции и
     хэш-таблицы](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.08.hashtables)
 9.  [Куча](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.09.heap)
