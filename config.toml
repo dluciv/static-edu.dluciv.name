@@ -28,10 +28,12 @@ description = "Dmitry V. Luciv"
 generate_feeds = false
 taxonomies = [{ name = "tags", feed = false }]
 
-# [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-# highlight_code = true
+[markdown.highlighting]
+style = "inline"
+dark_theme  = "material-theme-palenight" # Does not work here... Why?..
+light_theme = "material-theme-palenight"
+theme       = "material-theme"
+error_on_missing_language = false
 
 [extra]
 # Put all your custom variables here
