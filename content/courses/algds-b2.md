@@ -57,7 +57,7 @@ katex = true
 
 Чатики для ИИНД и МиКН (2025) в VK Teams СПбГУ:
 
-- [для ИИНД](http://httpforever.com/) (будет);
+- [для ИИНД](https://t.me/+NogeUYQa7NU1MGFi);
 - [для МиКН](https://t.me/+o3sco7z5-GM4NTA6).
 
 #### Практические задания для ИИНД и МиКН (2025)
