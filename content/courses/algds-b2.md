@@ -57,15 +57,15 @@ katex = true
 
 Чатики для ИИНД и МиКН (2025) в VK Teams СПбГУ:
 
-- [для ИИНД](https://myteam.mail.ru/profile/AoLJ2dxpuWDnTNAO0Wc);
-- [для МиКН](https://myteam.mail.ru/profile/AoLJ2d43rLTmSJvb0GM).
+- [для ИИНД](http://httpforever.com/) (будет);
+- [для МиКН](http://httpforever.com/) (будет).
 
 #### Практические задания для ИИНД и МиКН (2025)
 
 Задания проверяются при помощи курсов на HwProj:
 
-- [для ИИНД](https://hwproj.ru/courses/40035);
-- [для МиКН](https://hwproj.ru/courses/40037/).
+- [для ИИНД](https://hwproj.ru/courses/50081);
+- [для МиКН](https://hwproj.ru/courses/50082).
 
 #### Темы для возможных докладов МиКН
 
