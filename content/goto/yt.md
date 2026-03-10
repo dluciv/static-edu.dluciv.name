@@ -29,8 +29,8 @@ description = "YouTube → RuTube, VK Video, ..."
 ### Грейс Хоппер, наносекунда {#yt-gYqF6-h9Cvg}
 
 - [YouTube](https://youtu.be/gYqF6-h9Cvg)
+- [RuTube](https://rutube.ru/video/private/35921b0cda60e71e186bb4909082983c/?p=wCPH4Ur12Ls5JCvWb-xnQg)
 - [VK Видео](https://vkvideo.ru/video-214290604_456239023?list=ln-uMapkJzhrysix1f6O5)
-  <!-- RuTube? -->
 
 ### Pierre Henry, Psyché Rock {#yt-DEewNHWgqFU}
 
