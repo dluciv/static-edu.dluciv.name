@@ -22,16 +22,16 @@ katex = true
     контейнеры](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.05.linear_containers)
 2.  [Бинарные
     деревья](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.06.trees)
-3.  [Сильно ветвящиеся
-    деревья](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.07.heavily_branching_trees)
-4.  [От символов к байтам и
+3.  [От символов к байтам и
     обратно](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.01.symbols-encodings)
-5.  [Числа: точность, неотрицательные системы счисления, дополнительный
+4.  [Числа: точность, неотрицательные системы счисления, дополнительный
     код](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.02.numbers)
-6.  [Числа с плавающей запятой: представление, распределение; комплексные
+5.  [Числа с плавающей запятой: представление, распределение; комплексные
     числа](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.03.fpnumbers)
-7.  [Булева и многозначные логики; cимметричные системы счисления; троичная
+6.  [Булева и многозначные логики; cимметричные системы счисления; троичная
     информатика](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.04.logic_and_trinary)
+7.  [Сильно ветвящиеся
+    деревья](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.07.heavily_branching_trees)
 8.  [Хэш-функции и
     хэш-таблицы](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.08.hashtables)
 9.  [Куча](https://dluciv.github.io/algs_and_data_structs-spbu-CB.5001/slides.html?md=b2.09.heap)
@@ -53,14 +53,14 @@ katex = true
 
 ### Практические задания, семинары и коммуникация
 
-#### Коммуникация
+#### Коммуникация (2026)
 
-Чатики для ИИНД и МиКН (2025) в VK Teams СПбГУ:
+Чатики для ИИНД и МиКН:
 
 - [для ИИНД](https://t.me/+NogeUYQa7NU1MGFi);
 - [для МиКН](https://t.me/+o3sco7z5-GM4NTA6).
 
-#### Практические задания для ИИНД и МиКН (2025)
+#### Практические задания для ИИНД и МиКН
 
 Задания проверяются при помощи курсов на HwProj:
 
@@ -170,7 +170,7 @@ katex = true
 
 - [для всех](https://hwproj.ru/courses/50042).
 
-### Критерии оценивания (2025)
+### Критерии оценивания (2026)
 
 *А в 2026 и дальше всё может быть иначе!*
 
@@ -182,16 +182,16 @@ katex = true
 
 #### ПИ
 
-$$R = \min(1, T + 1/2 C)$$
+$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C)$$
 
 #### МиКН и ИИНД
 
-$$R = \min(1, T + 1/2 C + 1/2 P)$$
+$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C + 1/2 P)$$
 
-В 2025:
+В 2026:
 
-- для МиКН $P =$ \<балл в HwProj\> / 50
-- для ИИНД $P =$ \<балл в HwProj\> / 70
+- для МиКН $P =$ \<балл в HwProj\> / XX
+- для ИИНД $P =$ \<балл в HwProj\> / XX
 
 #### Список информационных источников
 
@@ -223,10 +223,6 @@ $$R = \min(1, T + 1/2 C + 1/2 P)$$
     of California San Diego; National Research University Higher School of Economics.
 2.  На второй семестр — CS Center, [Алгоритмы: теория и практика.
     Структуры данных](https://stepik.org/course/1547/).
-3.  На все семестры [Data Structures and
-    Algorithms](https://en.coursera.org/specializations/data-structures-algorithms) University
-    of California San Diego; National Research University Higher
-    School of Economics.
 
 {% alert(note=true) %}
 [Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
