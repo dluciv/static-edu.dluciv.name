@@ -219,12 +219,11 @@ $$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \oper
 
 ... рекомендованные в качестве дополнительных материалов
 
-1.  На второй семестр — [Algorithmic
-    Toolbox](https://www.coursera.org/learn/algorithmic-toolbox?specialization=data-structures-algorithms) & [Data
-    Structures](https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms) University
+1.  [Algorithmic Toolbox](https://www.coursera.org/learn/algorithmic-toolbox?specialization=data-structures-algorithms), University
     of California San Diego; National Research University Higher School of Economics.
-2.  На второй семестр — CS Center, [Алгоритмы: теория и практика.
-    Структуры данных](https://stepik.org/course/1547/).
+2.  [Data Structures](https://www.coursera.org/learn/data-structures?specialization=data-structures-algorithms), University
+    of California San Diego; National Research University Higher School of Economics.
+3.  [Алгоритмы: теория и практика. Структуры данных](https://stepik.org/course/1547/), CS Center.
 
 {% alert(note=true) %}
 [Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
