@@ -64,8 +64,8 @@ katex = true
 
 Задания проверяются при помощи курсов на HwProj:
 
-- [для ИИНД](https://hwproj.ru/);
-- [для МиКН](https://hwproj.ru/).
+- [для ИИНД](https://hwproj.ru/courses/50081);
+- [для МиКН](https://hwproj.ru/courses/50082).
 
 #### Темы для возможных докладов МиКН
 
@@ -168,7 +168,7 @@ katex = true
 
 Также на HwProj:
 
-- [для всех](https://hwproj.ru/courses/50042).
+- [для всех](https://hwproj.ru/courses/50093).
 
 ### Критерии оценивания (2026)
 
