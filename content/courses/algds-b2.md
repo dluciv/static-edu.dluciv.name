@@ -178,17 +178,18 @@ katex = true
 
 - теоретический зачёт из двух вопросов — $T = (T_1+T_2+\mathrm{Доп})/3$;
 - онлайн-курс (ниже) — $C \in [0, 1] = [0\\%, 100\\%]$;
-- практические задания — $P \in [0, 1] = $ \<полученный балл на HwProj\> / \<хороший возможный балл на HwProj\>.
+- практические задания — $P \in [0, 1] = $ \<полученный балл на HwProj\> / \<хороший возможный балл на HwProj\>;
+- бонуса для особо отличившихся — $B \in [0, 1]$ (может быть любой, например, $\frac{1}{2}$!) — эквивалент «+1 весёлая буква ECTS».
 
 Кто не сдаёт теоретическую часть зачёта/экзамена устно, те получают не более D (ECTS), см. ниже.
 
 #### ПИ
 
-$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C)$$
+$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C + \frac{1}{10} B)$$
 
 #### МиКН и ИИНД
 
-$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C + 1/2 P)$$
+$$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \operatorname{else} \frac{2}{3}, T + 1/2 C + 1/2 P + \frac{1}{10} B)$$
 
 В 2026:
 
