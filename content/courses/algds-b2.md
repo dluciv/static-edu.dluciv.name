@@ -193,8 +193,8 @@ $$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \oper
 
 В 2026:
 
-- для МиКН $P =$ \<балл в HwProj\> / XX
-- для ИИНД $P =$ \<балл в HwProj\> / XX
+- для МиКН $P =$ \<балл в HwProj\> / 45
+- для ИИНД $P =$ \<балл в HwProj\> / 70
 
 #### Список информационных источников
 
