@@ -30,8 +30,8 @@ taxonomies = [{ name = "tags", feed = false }]
 
 [markdown.highlighting]
 style = "inline"
-dark_theme  = "material-theme-palenight" # Does not work here... Why?..
-light_theme = "material-theme-palenight"
+# dark_theme  = "material-theme-palenight" # Does not work here... Why?..
+# light_theme = "material-theme-palenight"
 theme       = "material-theme"
 error_on_missing_language = false
 
