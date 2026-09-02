@@ -3,9 +3,9 @@ language_name = "English"
 "materials" = "📚 Materials"
 
 "internships-masters-m1234" = "💡 Master's Internships & Theses"
-"algds-b2"                  = "🤖 Algorithms and Data Structures, 2nd Semester"
-"algds-b5"                  = "🧠 Algorithms and Data Structures, 5th Semester"
-"comp-arch-b24"             = "👨‍💻️Computer Architecture"
+"algds-b2"                  = "🤖 Algorithms and Data Structures, 2nd semester"
+"algds-b5"                  = "🧠 Algorithms and Data Structures, 5th semester"
+"comp-arch-b24"             = "👨‍💻️Computer Architecture, 2nd semester for SE & 4th for PT"
 "tools-tech-m1"             = "🛠 Modern Software Tools and Technologies"
 "nosql-b7"                  = "🛢 Distributed Information Processing and NoSQL DB"
 
