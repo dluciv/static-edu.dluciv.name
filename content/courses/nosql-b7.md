@@ -14,7 +14,7 @@ title = "Распределённая обработка данных и NoSQL �
 В таблице [по ссылке](https://disk.yandex.ru/i/LKUMslqJNzn3vg/preview) — собственно доклады и их статус.
 Предпросмотр (обновляется раз в ~15 минут):
 
-{{ ext_table(src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2025-Темы_вопросы_успехи.html", collapse=true) }}
+{{ ext_table(src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html", collapse=true) }}
 <!-- было iframe=true, height="1000px" -->
 
 ##  Правила
