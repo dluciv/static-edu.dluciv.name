@@ -10,7 +10,7 @@ toc_sidebar = true
 
 ### ВКС
 
-[По ссылке](https://clc.li/UdTub)
+[По ссылке](https://clc.li/zxc)
 
 ### Доклады
 
