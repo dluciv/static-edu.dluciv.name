@@ -10,7 +10,7 @@ toc_sidebar = true
 
 ## Коммуникация
 
-- [Курс на HwProj](https://hwproj.ru/courses/50049/homeworks)
+- [Курс на HwProj](https://hwproj.ru/courses/50102/homeworks)
 - Чатик? Ну подумаем...
 
 ## Материалы
@@ -167,7 +167,7 @@ toc_sidebar = true
 ### Софт
 
 - Операционная система и окружение
-  - GNU/Linux 
+  - GNU/Linux
   - Для Windows:
     - [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
     - [Cygwin](https://www.cygwin.com/) или [MSYS2](https://www.msys2.org/)
