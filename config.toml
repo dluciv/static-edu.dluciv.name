@@ -57,10 +57,10 @@ links = [
 	{ name = "materials", menu = [
 		{ name = "tools-tech-m1", url = "@/courses/modern_tt-m1.md" },
 		{ name = "algds-b5", url = "@/courses/algds-b5.md" },
+		{ name = "nosql-b7", url = "@/courses/nosql-b7.md" },
 		{ url = "@/internships/masters.md", name = "internships-masters-m1234" },
 		{ name = "algds-b2", url = "@/courses/algds-b2.md" },
 		{ name = "comp-arch-b24", url =  "@/courses/comparch-b24.md" },
-		{ name = "nosql-b7", url = "@/courses/nosql-b7.md" }
 	] }
 ]
 
