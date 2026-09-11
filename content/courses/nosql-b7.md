@@ -7,7 +7,7 @@ title = "Распределённая обработка данных и NoSQL �
 
 ## Связь
 
-* [Чатик](https://srr.ru/) <!-- https://t.me/+2yN52JbVoN40YTBi -->
+* [Чатик](https://t.me/+iksVPJy27Z5hMjky) <!-- https://t.me/+2yN52JbVoN40YTBi -->
 * [Вебинар](https://srr.ru/) <!-- https://webinar.spbu.ru/2687/256647705 -->
 
 ## Программа семинара
