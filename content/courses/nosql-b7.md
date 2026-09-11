@@ -12,13 +12,24 @@ title = "Распределённая обработка данных и NoSQL �
 
 ## Программа семинара
 
-### Программа 2.0
-
-А 1.0 — ниже.
-
 {% details(summary="5 Разделов по несколько докладов") %}
 
-#### 1. Общие подходы к решению распределённых задач
+### 1. NoSQL полтора десятилетия назад и сейчас
+
+1. Истоки NoSQL Movement и ранние обещания
+   * [C. Strauch. NoSQL Databases // Hochschule der Medien, Stuttgart, 2011](https://duckduckgo.com/?q=Strauch%2C+C.+NoSQL+Databases+Hochschule+der+Medien%2C+Stuttgart%2C+2011)
+   * [M. Fowler. Nosql Definition](https://martinfowler.com/bliki/NosqlDefinition.html)
+   * [NoSQL — A tale of four sisters](https://thedatafreak.medium.com/nosql-a-tale-of-four-sisters-21f376a8f1dc)
+2. «Война баз данных» и её неожиданный финал: триумф PostgreSQL и расцвет NewSQL
+   * [Sourav Mukherjee. The battle between NoSQL Databases and RDBMS](https://www.allsubjectjournal.com/assets/archives/2019/vol6issue7/6-7-35-678.pdf)
+   * [The PostgreSQL Renaissance: How One Database Is Replacing Them All](https://medium.com/@reliabledataengineering/the-postgresql-renaissance-how-one-database-is-replacing-them-all-10b92ad766b9)
+   * [Кратко про NewSQL](https://habr.com/ru/companies/otus/articles/792722/)
+3. Новый NoSQL 2026 года: зачем нам нереляционные модели сегодня
+   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf)
+   * [Apache Iceberg](https://iceberg.apache.org/)
+   * [Что такое векторная база данных](https://bigdataschool.ru/wiki/vector-database/)
+
+### 2. Общие подходы к решению распределённых задач
 
 1. Протоколы распределённого консенсуса (Raft)
    * [Распределенное KV-хранилище на базе etcd](https://habr.com/ru/articles/1025994/)
@@ -33,7 +44,7 @@ title = "Распределённая обработка данных и NoSQL �
    * [Децентрализованные цифровые валюты. Часть 2. UTXO](https://habr.com/ru/articles/405907/)
    * [HBTBD: A Heterogeneous Bitcoin Transaction Behavior Detection](https://www.mdpi.com/2076-3417/13/15/8766) DOI: [10.3390/app13158766](https://doi.org/10.3390/app13158766)
 
-#### 2. Нереляционные парадигмы и модели данных
+### 3. Нереляционные парадигмы и модели данных
 
 1. Эволюция от MapReduce к современным распределённым движкам (Spark, Flink)
    * [The Evolution of Big Data Processing: From Hadoop to Spark to Flink](https://minimaldevops.com/the-evolution-of-big-data-processing-from-hadoop-to-spark-to-flink-fb2c8616da63)
@@ -47,7 +58,7 @@ title = "Распределённая обработка данных и NoSQL �
 4. Мультимодельные СУБД (документы + графы + ключ-значение)
    * [Мультимодельные СУБД — основа современных информационных систем](https://habr.com/ru/articles/462493/)
 
-#### 3. Дискуссионные вопросы
+### 4. Дискуссионные вопросы
 
 1. Теоремы CAP и PACELC
    * [Недостатки и альтернативы CAP-теоремы для NoSQL и Big Data: BASE и PACELC](https://bigdataschool.ru/blog/cap-alternatives-for-nosql-and-big-data/)
@@ -61,8 +72,7 @@ title = "Распределённая обработка данных и NoSQL �
 4. RAG vs Fine-Tuning: архитектурный выбор хранения контекста
    * [Смерть fine-tuning? Почему RAG и промпт-инженерия вытесняют дообучение](https://habr.com/ru/companies/cloud_ru/articles/940868/)
    * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) DOI/arXiv: [10.48550/arXiv.2005.11401](https://doi.org/10.48550/arXiv.2005.11401)
-
-#### 4. Конкретные системы
+### 5. Конкретные системы
 
 1. Яндекс ClickHouse (и современные колоночные OLAP)
    * [Глубокое сравнение StarRocks и ClickHouse в задачах аналитики](https://habr.com/ru/articles/967214/)
@@ -81,7 +91,7 @@ title = "Распределённая обработка данных и NoSQL �
    * [Что умеет и где может пригодиться pgvector](https://habr.com/ru/companies/selectel/articles/920824/)
    * [How we implemented vector search in Postgres Pro](https://habr.com/en/companies/postgrespro/articles/923816/)
 
-#### 5. Баттл (Дебаты)
+### 6. Баттл (Дебаты)
 
 1. Qdrant/Milvus vs PostgreSQL + pgvector
    * [Выбираем векторную БД для AI-агентов и RAG: большой обзор](https://habr.com/ru/articles/961088/)
@@ -94,9 +104,9 @@ title = "Распределённая обработка данных и NoSQL �
 
 {% end %}
 
-### Программа 1.0
+## Прогресс
 
-В таблице [по ссылке](https://disk.yandex.ru/i/LKUMslqJNzn3vg/preview) — собственно доклады и их статус.
+В таблице [по ссылке](https://disk.yandex.ru/i/Bf6_YimdPpRdWQ) — собственно доклады и их статус.
 Предпросмотр (обновляется раз в ~15 минут):
 
 {{ ext_table(src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html", collapse=true) }}
@@ -123,5 +133,5 @@ title = "Распределённая обработка данных и NoSQL �
 Программа зачёта для тех, кому не хватило — содержание состоявшихся докладов семинара.
 
 {% alert(note=true) %}
-[Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
+[Прежняя версия этой страницы доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
 {% end %}
