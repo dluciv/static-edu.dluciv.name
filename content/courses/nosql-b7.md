@@ -17,76 +17,76 @@ title = "Распределённая обработка данных и NoSQL �
 ### 1. NoSQL полтора десятилетия назад и сейчас
 
 1. Истоки NoSQL Movement и ранние обещания
-   * [C. Strauch. NoSQL Databases // Hochschule der Medien, Stuttgart, 2011](https://duckduckgo.com/?q=Strauch%2C+C.+NoSQL+Databases+Hochschule+der+Medien%2C+Stuttgart%2C+2011)
-   * [M. Fowler. Nosql Definition](https://martinfowler.com/bliki/NosqlDefinition.html)
-   * [NoSQL — A tale of four sisters](https://thedatafreak.medium.com/nosql-a-tale-of-four-sisters-21f376a8f1dc)
+   * [C. Strauch. NoSQL Databases // Hochschule der Medien, Stuttgart, 2011](https://duckduckgo.com/?q=Strauch%2C+C.+NoSQL+Databases+Hochschule+der+Medien%2C+Stuttgart%2C+2011) [🏛](https://web.archive.org/web/20260829031144/https://www.christof-strauch.de/nosqldbs.pdf)
+   * [M. Fowler. Nosql Definition](https://martinfowler.com/bliki/NosqlDefinition.html) [🏛](https://web.archive.org/web/20120111232524/http://martinfowler.com/bliki/NosqlDefinition.html)
+   * [NoSQL — A tale of four sisters](https://thedatafreak.medium.com/nosql-a-tale-of-four-sisters-21f376a8f1dc) [🏛](https://web.archive.org/web/20220114180634/https://thedatafreak.medium.com/nosql-a-tale-of-four-sisters-21f376a8f1dc)
 2. «Война баз данных» и её неожиданный финал: триумф PostgreSQL и расцвет NewSQL
-   * [Sourav Mukherjee. The battle between NoSQL Databases and RDBMS](https://www.allsubjectjournal.com/assets/archives/2019/vol6issue7/6-7-35-678.pdf)
-   * [The PostgreSQL Renaissance: How One Database Is Replacing Them All](https://medium.com/@reliabledataengineering/the-postgresql-renaissance-how-one-database-is-replacing-them-all-10b92ad766b9)
+   * [Sourav Mukherjee. The battle between NoSQL Databases and RDBMS](https://www.allsubjectjournal.com/assets/archives/2019/vol6issue7/6-7-35-678.pdf) [🏛](https://web.archive.org/web/20260625124704/https://www.allsubjectjournal.com/assets/archives/2019/vol6issue7/6-7-35-678.pdf)
+   * [The PostgreSQL Renaissance: How One Database Is Replacing Them All](https://medium.com/@reliabledataengineering/the-postgresql-renaissance-how-one-database-is-replacing-them-all-10b92ad766b9) [🏛](https://web.archive.org/web/20260911120121/https://medium.com/@reliabledataengineering/the-postgresql-renaissance-how-one-database-is-replacing-them-all-10b92ad766b9)
    * [Кратко про NewSQL](https://habr.com/ru/companies/otus/articles/792722/)
 3. Новый NoSQL 2026 года: зачем нам нереляционные модели сегодня
-   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf)
-   * [Apache Iceberg](https://iceberg.apache.org/)
+   * [Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf) [🏛](https://web.archive.org/web/20201222143821/http://cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf)
+   * [Apache Iceberg](https://iceberg.apache.org/) [🏛](https://web.archive.org/web/20190428011216/https://iceberg.apache.org/)
    * [Что такое векторная база данных](https://bigdataschool.ru/wiki/vector-database/)
 
 ### 2. Общие подходы к решению распределённых задач
 
 1. Протоколы распределённого консенсуса (Raft)
    * [Распределенное KV-хранилище на базе etcd](https://habr.com/ru/articles/1025994/)
-   * [In Search of an Understandable Consensus Algorithm](https://ramcloud.stanford.edu/raft.pdf)
+   * [In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf) [🏛](https://web.archive.org/web/20260910101258/https://raft.github.io/raft.pdf)
 2. Распределённые хэш-таблицы (DHT) и P2P-архитектуры
-   * [P2P-архитектура: принципы, протоколы и будущее](https://sky.pro/wiki/javascript/odnorangovaya-p2p-arhitektura/)
-   * [Маршрутизация в пиринговых сетях](https://network-journal.mpei.ac.ru/ru/14/4/1/article.htm)
+   * [P2P-архитектура: принципы, протоколы и будущее](https://sky.pro/wiki/javascript/odnorangovaya-p2p-arhitektura/) [🏛](https://web.archive.org/web/20260911124434/https://sky.pro/wiki/javascript/odnorangovaya-p2p-arhitektura/)
+   * [Маршрутизация в пиринговых сетях](https://network-journal.mpei.ac.ru/ru/14/4/1/article.htm) [🏛](https://web.archive.org/web/20260911124511/https://network-journal.mpei.ac.ru/ru/14/4/1/article.htm)
 3. Event Sourcing и Stream Processing (Kafka, CQRS)
    * [Лучшие практики для событийно-ориентированной архитектуры](https://habr.com/ru/articles/982564/)
-   * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
+   * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/) [🏛](https://web.archive.org/web/20250615091016/https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
 4. Архитектура типичных криптовалют (UTXO, консенсус)
    * [Децентрализованные цифровые валюты. Часть 2. UTXO](https://habr.com/ru/articles/405907/)
-   * [HBTBD: A Heterogeneous Bitcoin Transaction Behavior Detection](https://www.mdpi.com/2076-3417/13/15/8766) DOI: [10.3390/app13158766](https://doi.org/10.3390/app13158766)
+   * [HBTBD: A Heterogeneous Bitcoin Transaction Behavior Detection](https://www.mdpi.com/2076-3417/13/15/8766) [🏛](https://web.archive.org/web/20230729054615/https://www.mdpi.com/2076-3417/13/15/8766) DOI: [10.3390/app13158766](https://doi.org/10.3390/app13158766)
 
 ### 3. Нереляционные парадигмы и модели данных
 
 1. Эволюция от MapReduce к современным распределённым движкам (Spark, Flink)
-   * [The Evolution of Big Data Processing: From Hadoop to Spark to Flink](https://minimaldevops.com/the-evolution-of-big-data-processing-from-hadoop-to-spark-to-flink-fb2c8616da63)
-   * [Spark versus Flink: Understanding Performance in Big Data Analytics](https://inria.hal.science/hal-01347638/file/clusterFS.pdf)
+   * [The Evolution of Big Data Processing: From Hadoop to Spark to Flink](https://minimaldevops.com/the-evolution-of-big-data-processing-from-hadoop-to-spark-to-flink-fb2c8616da63) [🏛](https://web.archive.org/web/20260911124723/https://minimaldevops.com/the-evolution-of-big-data-processing-from-hadoop-to-spark-to-flink-fb2c8616da63?gi=828acbe02fa9)
+   * [Spark versus Flink: Understanding Performance in Big Data Analytics](https://inria.hal.science/hal-01347638/file/clusterFS.pdf) [🏛](https://web.archive.org/web/20230525183650/https://inria.hal.science/hal-01347638/file/clusterFS.pdf)
 2. Графовые БД и Knowledge Graphs (GraphRAG)
    * [Улучшаем RAG с помощью графов знаний (GraphRAG)](https://habr.com/ru/articles/871700/)
-   * [Graph-RAG: гибридный поиск с графовой структурой...](https://cyberleninka.ru/article/n/graph-rag-gibridnyy-poisk-s-grafovoy-strukturoy-dlya-obespecheniya-polnoty-i-soglasovannosti-pri-analize-normativno-tehnicheskih)
+   * [Graph-RAG: гибридный поиск с графовой структурой...](https://cyberleninka.ru/article/n/graph-rag-gibridnyy-poisk-s-grafovoy-strukturoy-dlya-obespecheniya-polnoty-i-soglasovannosti-pri-analize-normativno-tehnicheskih) [🏛](https://web.archive.org/web/20260911124847/https://cyberleninka.ru/article/n/graph-rag-gibridnyy-poisk-s-grafovoy-strukturoy-dlya-obespecheniya-polnoty-i-soglasovannosti-pri-analize-normativno-tehnicheskih/viewer)
 3. Векторные модели хранения как новая NoSQL-парадигма
    * [Выбираем векторную БД для AI-агентов и RAG: большой обзор](https://habr.com/ru/articles/961088/)
-   * [Векторные базы данных: принципы работы и применение](https://econom-inform-journal.ru/index.php/journal/article/download/390/401/1416)
+   * [Векторные базы данных: принципы работы и применение](https://econom-inform-journal.ru/index.php/journal/article/download/390/401/1416) [🏛](https://web.archive.org/web/20250430223517/https://econom-inform-journal.ru/index.php/journal/article/download/390/401/1416)
 4. Мультимодельные СУБД (документы + графы + ключ-значение)
    * [Мультимодельные СУБД — основа современных информационных систем](https://habr.com/ru/articles/462493/)
 
 ### 4. Дискуссионные вопросы
 
 1. Теоремы CAP и PACELC
-   * [Недостатки и альтернативы CAP-теоремы для NoSQL и Big Data: BASE и PACELC](https://bigdataschool.ru/blog/cap-alternatives-for-nosql-and-big-data/)
+   * [Недостатки и альтернативы CAP-теоремы для NoSQL и Big Data: BASE и PACELC](https://bigdataschool.ru/blog/cap-alternatives-for-nosql-and-big-data/) [🏛](https://web.archive.org/web/20250621230503/https://bigdataschool.ru/blog/cap-alternatives-for-nosql-and-big-data/)
    * [Консистентность и ACID-гарантии в распределенных системах](https://habr.com/ru/companies/gridgain/articles/430852/)
 2. NoSQL vs NewSQL vs PostgreSQL: конец эпохи «войн баз данных»
-   * [Майкл Стоунбрейкер: Всё новое это хорошо забытое старое](https://postgrespro.ru/materials/item/5971220)
+   * [Майкл Стоунбрейкер: Всё новое это хорошо забытое старое](https://postgrespro.ru/materials/item/5971220) [🏛](https://web.archive.org/web/20260911125029/https://postgrespro.ru/materials/item/5971220)
    * [Сравнение реляционного подхода с нереляционными (NoSQL) и масштабируемыми реляционными (NewSQL) решениями](https://www.vestcyber.ru/jour/article/download/740/443) DOI: [10.35266/1999-7604](https://doi.org/10.35266/1999-7604)
 3. Data Lakehouse: мост между Data Lake и Data Warehouse
-   * [Data Warehouses vs. Data Lakes vs. Data Lakehouses](https://www.ibm.com/think/topics/data-warehouse-vs-data-lake-vs-data-lakehouse)
-   * [Data Lake vs. Warehouse vs. Lakehouse](https://www.onehouse.ai/blog/data-lake-vs-warehouse-vs-lakehouse)
+   * [Data Warehouses vs. Data Lakes vs. Data Lakehouses](https://www.ibm.com/think/topics/data-warehouse-vs-data-lake-vs-data-lakehouse) [🏛](https://web.archive.org/web/20241207024909/https://www.ibm.com/think/topics/data-warehouse-vs-data-lake-vs-data-lakehouse)
+   * [Data Lake vs. Warehouse vs. Lakehouse](https://www.onehouse.ai/blog/data-lake-vs-warehouse-vs-lakehouse) [🏛](https://web.archive.org/web/20251104024922/https://www.onehouse.ai/blog/data-lake-vs-warehouse-vs-lakehouse)
 4. RAG vs Fine-Tuning: архитектурный выбор хранения контекста
    * [Смерть fine-tuning? Почему RAG и промпт-инженерия вытесняют дообучение](https://habr.com/ru/companies/cloud_ru/articles/940868/)
-   * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) DOI/arXiv: [10.48550/arXiv.2005.11401](https://doi.org/10.48550/arXiv.2005.11401)
+   * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) [🏛](https://web.archive.org/web/20200607223030/https://arxiv.org/abs/2005.11401) DOI/arXiv: [10.48550/arXiv.2005.11401](https://doi.org/10.48550/arXiv.2005.11401)
 ### 5. Конкретные системы
 
 1. Яндекс ClickHouse (и современные колоночные OLAP)
    * [Глубокое сравнение StarRocks и ClickHouse в задачах аналитики](https://habr.com/ru/articles/967214/)
-   * [Сравнение возможностей NoSQL колоночной базы данных ClickHouse](https://vestnik.alt.edu.kz/index.php/journal/article/view/1703)
+   * [Сравнение возможностей NoSQL колоночной базы данных ClickHouse](https://vestnik.alt.edu.kz/index.php/journal/article/view/1703) [🏛](https://web.archive.org/web/20240519061141/https://vestnik.alt.edu.kz/index.php/journal/article/view/1703)
 2. Apache Cassandra / ScyllaDB (Wide-Column Store)
    * [Как Discord хранит триллионы сообщений: переход с Cassandra на ScyllaDB](https://habr.com/ru/articles/722124/)
-   * [ScyllaDB Whitepaper](https://www.scylladb.com/resource/scylladb-whitepaper/)
+   * [ScyllaDB Whitepaper](https://www.scylladb.com/resource/scylladb-whitepaper/) 
    * [Наш опыт с Cassandra и ScyllaDB](https://habr.com/ru/companies/ru_mts/articles/935896/)
 3. Векторные СУБД: Qdrant / Milvus
    * [Что могут векторные СУБД — open source инструменты](https://habr.com/ru/companies/mws/articles/826642/)
-   * [Vector Database Comparison in 2026: Nine Systems by Cost, Scale](https://news.hamidun.com/en/news/9519/vector-database-comparison-in-2026-nine-systems-by-cost-scal)
+   * [Vector Database Comparison in 2026: Nine Systems by Cost, Scale](https://news.hamidun.com/en/news/9519/vector-database-comparison-in-2026-nine-systems-by-cost-scal) [🏛](https://web.archive.org/web/20260911125306/https://news.hamidun.com/en/news/9519/vector-database-comparison-in-2026-nine-systems-by-cost-scal)
 4. YTsaurus: платформа распределённого хранения и обработки
    * [YTsaurus: основная система для хранения и обработки данных Яндекса](https://habr.com/ru/companies/yandex/articles/721526/)
-   * [Официальные доклады и публикации](https://ytsaurus.tech/docs/en/other/video-posts)
+   * [Официальные доклады и публикации](https://ytsaurus.tech/docs/en/other/video-posts) [🏛](https://web.archive.org/web/20231129121943/https://ytsaurus.tech/docs/en/other/video-posts)
 5. PostgreSQL + pgvector как универсальный комбайн
    * [Что умеет и где может пригодиться pgvector](https://habr.com/ru/companies/selectel/articles/920824/)
    * [How we implemented vector search in Postgres Pro](https://habr.com/en/companies/postgrespro/articles/923816/)
@@ -100,13 +100,13 @@ title = "Распределённая обработка данных и NoSQL �
    * [Lakehouse 2026: Iceberg + Trino + ClickHouse для DWH](https://zasqlpython.ru/blog/lakehouse-iceberg-trino-clickhouse-arhitektura-2026)
 3. Event Sourcing (Kafka) vs Традиционные реляционные транзакции (ACID)
    * [Распределённые транзакции в микросервисах: от SAGA до ACID](https://habr.com/ru/articles/906484/)
-   * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
+   * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/) [🏛](https://web.archive.org/web/20250615091016/https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
 
 {% end %}
 
 ## Прогресс
 
-В таблице [по ссылке](https://disk.yandex.ru/i/Bf6_YimdPpRdWQ) — собственно доклады и их статус.
+В таблице [по ссылке](https://disk.yandex.ru/i/Bf6_YimdPpRdWQ)
 Предпросмотр (обновляется раз в ~15 минут):
 
 {{ ext_table(src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html", collapse=true) }}
