@@ -14,6 +14,8 @@ title = "Распределённая обработка данных и NoSQL �
 
 {% details(summary="Несколько разделов по несколько докладов") %}
 
+Информационные источники можно брать предложенные, можно дополнять, можно заменять своими, подходящими по тематике.
+
 ### 1. NoSQL полтора десятилетия назад и сейчас
 
 1. Истоки NoSQL Movement и ранние обещания
@@ -41,7 +43,8 @@ title = "Распределённая обработка данных и NoSQL �
    * [Лучшие практики для событийно-ориентированной архитектуры](https://habr.com/ru/articles/982564/)
    * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/) [🏛](https://web.archive.org/web/20250615091016/https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
 4. Архитектура типичных криптовалют (UTXO, консенсус)
-   * [Децентрализованные цифровые валюты. Часть 2. UTXO](https://habr.com/ru/articles/405907/)
+   * [Децентрализованные цифровые валюты. Часть 1. Биткойн](https://habr.com/ru/articles/405453/)
+   * [Децентрализованные цифровые валюты. Часть 2. Блокчейн](https://habr.com/ru/articles/405907/)
    * [HBTBD: A Heterogeneous Bitcoin Transaction Behavior Detection](https://www.mdpi.com/2076-3417/13/15/8766) [🏛](https://web.archive.org/web/20230729054615/https://www.mdpi.com/2076-3417/13/15/8766) DOI: [10.3390/app13158766](https://doi.org/10.3390/app13158766)
 
 ### 3. Нереляционные парадигмы и модели данных
