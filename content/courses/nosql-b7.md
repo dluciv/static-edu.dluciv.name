@@ -8,7 +8,7 @@ title = "Распределённая обработка данных и NoSQL �
 ## Связь
 
 * [Чатик](https://t.me/+iksVPJy27Z5hMjky) <!-- https://t.me/+2yN52JbVoN40YTBi -->
-* [Вебинар](https://srr.ru/) <!-- https://webinar.spbu.ru/2687/256647705 -->
+* [Вебинар](https://webinar.spbu.ru/2687/1221029997) <!-- https://webinar.spbu.ru/2687/256647705 -->
 
 ## Программа семинара
 
@@ -79,7 +79,7 @@ title = "Распределённая обработка данных и NoSQL �
    * [Сравнение возможностей NoSQL колоночной базы данных ClickHouse](https://vestnik.alt.edu.kz/index.php/journal/article/view/1703) [🏛](https://web.archive.org/web/20240519061141/https://vestnik.alt.edu.kz/index.php/journal/article/view/1703)
 2. Apache Cassandra / ScyllaDB (Wide-Column Store)
    * [Как Discord хранит триллионы сообщений: переход с Cassandra на ScyllaDB](https://habr.com/ru/articles/722124/)
-   * [ScyllaDB Whitepaper](https://www.scylladb.com/resource/scylladb-whitepaper/) 
+   * [ScyllaDB Whitepaper](https://www.scylladb.com/resource/scylladb-whitepaper/)
    * [Наш опыт с Cassandra и ScyllaDB](https://habr.com/ru/companies/ru_mts/articles/935896/)
 3. Векторные СУБД: Qdrant / Milvus
    * [Что могут векторные СУБД — open source инструменты](https://habr.com/ru/companies/mws/articles/826642/)
