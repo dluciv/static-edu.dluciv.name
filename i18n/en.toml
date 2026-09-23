@@ -7,6 +7,7 @@ language_name = "English"
 "algds-b5"                  = "🧠 Algorithms and Data Structures, 5th semester"
 "comp-arch-b24"             = "👨‍💻️Computer Architecture, 2nd semester for SE & 4th for PT"
 "tools-tech-m1"             = "🛠 Modern Software Tools and Technologies"
+"hw-design-m1"              = "🦾 Digital Systems Design"
 "nosql-b7"                  = "🛢 Distributed Information Processing and NoSQL DB"
 
 "site_source"               = "Found a mistake?.."

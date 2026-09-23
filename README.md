@@ -7,7 +7,7 @@
 
 ## Технические замечания
 
-1. ~~BigPickle~~ **Готово**: Zola 0.23.5+ починил `text_direction()`, duckquill на main переведён на Tera 2. Было сделано 23.09.2026:
+1. ~~LLM~~ **Готово**: Zola 0.23.5+ починил `text_direction()`, duckquill на main переведён на Tera 2. Было сделано 23.09.2026:
    - Субмодуль `duckquill` поднят до `main` (5b0c3fc, v6.3.0 → post-migration).
    - Zola поднят до 0.23.6 (CI — `shalzz/zola-deploy-action@v0.23.6`, локально — 0.23.6).
    - Шорткоды сайта перенесены на компоненты: `{% <alert …> %}`, `{% <details …> %}`, `{{ <ext_table … /> }}`, `{% <crt> %}`. Старая папка `templates/shortcodes/` удалена; созданы локальные компоненты `details.html` и `ext_table.html` в `templates/components/`.

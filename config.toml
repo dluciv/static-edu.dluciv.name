@@ -56,6 +56,7 @@ links = [
 #	] },
 	{ name = "materials", menu = [
 		{ name = "tools-tech-m1", url = "@/courses/modern_tt-m1.md" },
+		{ name = "hw-design-m1", url = "@/courses/hw_design-m1.md" },
 		{ name = "algds-b5", url = "@/courses/algds-b5.md" },
 		{ name = "nosql-b7", url = "@/courses/nosql-b7.md" },
 		{ url = "@/internships/masters.md", name = "internships-masters-m1234" },
