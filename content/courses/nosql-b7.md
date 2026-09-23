@@ -12,7 +12,7 @@ title = "Распределённая обработка данных и NoSQL �
 
 ## Программа семинара
 
-{% details(summary="Несколько разделов по несколько докладов") %}
+{% <details summary="Несколько разделов по несколько докладов"> %}
 
 Информационные источники можно брать предложенные, можно дополнять, можно заменять своими, подходящими по тематике.
 
@@ -105,14 +105,14 @@ title = "Распределённая обработка данных и NoSQL �
    * [Распределённые транзакции в микросервисах: от SAGA до ACID](https://habr.com/ru/articles/906484/)
    * [Архитектура данных в Event Sourcing: где хранить события?](https://bigdataschool.ru/blog/data-stores-for-event-sourcing/) [🏛](https://web.archive.org/web/20250615091016/https://bigdataschool.ru/blog/data-stores-for-event-sourcing/)
 
-{% end %}
+{% </details> %}
 
 ## Прогресс
 
 В таблице [по ссылке](https://disk.yandex.ru/i/Bf6_YimdPpRdWQ)
 Предпросмотр (обновляется раз в ~15 минут):
 
-{{ ext_table(src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html", collapse=true) }}
+{{ <ext_table src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html" collapse={true} /> }}
 <!-- было iframe=true, height="1000px" -->
 
 ##  Правила
@@ -135,6 +135,6 @@ title = "Распределённая обработка данных и NoSQL �
 Нарушение условий без уважительных причин ⇒ осуждение, порицание и меньше баллов для зачёта.
 Программа зачёта для тех, кому не хватило — содержание состоявшихся докладов семинара.
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 [Прежняя версия этой страницы доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/distrinfproc?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
-{% end %}
+{% </alert> %}

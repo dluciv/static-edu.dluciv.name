@@ -1,0 +1,9 @@
+{% component ext_table(src, height="", collapse=false, iframe=false) %}
+{%- if iframe -%}
+<iframe
+  referrerpolicy="no-referrer" loading="lazy" height="{{ height }}"
+  src="{{ src }}"><span style="text-align: center;">⏳</span></iframe>
+{%- else -%}
+<ext-table src="{{ src }}" {% if collapse %}collapse{% endif %}><span style="text-align: center;">⏳</span></ext-table>
+{%- endif -%}
+{% endcomponent ext_table %}

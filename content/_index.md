@@ -4,13 +4,13 @@ title = "Луцив Дмитрий Вадимович"
 description = "Луцив Дмитрий Вадимович: Образование"
 +++
 
-{% crt() %}
+{% <crt> %}
 <pre>
 Ссылки:
 - <a href="https://dluciv.name/?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain">Персональный сайт</a>
 - <a href="https://sites.google.com/view/edu2018-dluciv-name?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain">Прежний сайт edu.dluciv.name</a>
 </pre>
-{% end %}
+{% </crt> %}
 
 ![Д.В. Луцив (2025)](images/dluciv-2025.jpg#end)
 
@@ -23,10 +23,10 @@ description = "Луцив Дмитрий Вадимович: Образован�
   [Образовательного центра системного программирования](https://spbu.ru/obrazovatelnyy-centr-sistemnogo-programmirovaniya-spbgu),
   руководитель образовательной программы бакалавриата «Программная инженерия»
 
-{% details(summary="...") %}
-- Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
+{% <details summary="..."> %}
+- Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
 - Учёный секретарь [Учёного совета Математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
-{% end %}
+{% </details> %}
 
 
 Расписание

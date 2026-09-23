@@ -226,6 +226,6 @@ $$R = \min(\operatorname{if} (T \ge \frac{1}{5}) \operatorname{then} 1 \oper
     of California San Diego; National Research University Higher School of Economics.
 3.  [Алгоритмы: теория и практика. Структуры данных](https://stepik.org/course/1547/), CS Center.
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 [Cтраница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/algorithms?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
-{% end %}
+{% </alert> %}

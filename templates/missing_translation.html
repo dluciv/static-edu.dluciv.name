@@ -2,7 +2,7 @@
 
 {% block content %}
 <h1>
-{%- if page.title -%}
+{%- if page is defined and page.title -%}
     {{ page.title }}
 {%- elif lang == "ru" -%}
     Нет перевода
@@ -13,7 +13,7 @@
 {%- endif -%}
 </h1>
 {%- include "partials/statements.html" -%}
-{%- if page.extra.toc and not page.extra.toc_sidebar -%}
+{%- if section is defined and section.extra.toc and not section.extra.toc_sidebar -%}
 {%- include "partials/toc.html" -%}
 {%- endif -%}
 

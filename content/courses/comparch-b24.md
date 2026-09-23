@@ -150,6 +150,6 @@ $$ R = \min(\operatorname{if} (T \ge \frac{1}{4}) \operatorname{then} 1 \op
 8.  [Музей Сергея Фролова](http://www.leningrad.su/museum/)
 
 
-{% alert(note=true) %}
+{% <alert note={true}> %}
 [Эта страница доступна на старом сайте](https://sites.google.com/view/edu2018-dluciv-name/Home/architecture?utm_source=edu.dluciv.name&utm_campaign=dluciv.name_domain)
-{% end %}
+{% </alert> %}
