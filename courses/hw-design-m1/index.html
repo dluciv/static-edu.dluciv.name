@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru" >
+<head>
+	<!-- 2026-09-26 Sat 13:24 -->
+	<meta charset="UTF-8" />
+	<meta name="description" content="Луцив Дмитрий Вадимович" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#9a9996" />
+	<title>Проектирование цифровых систем - Луцив Дмитрий Вадимович</title>
+	<link rel="canonical" href="https://edu.dluciv.name/courses/hw-design-m1/" /><link rel="icon" type="image/png" href="https://edu.dluciv.name/favicon.png" />
+
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://edu.dluciv.name/apple-touch-icon.png" />
+<style type="text/css">
+	:root {--accent-color: #6f8396;}</style>
+
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/style.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/icons.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/katex.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/mods.css" />
+			<link type="text/css" rel="stylesheet" href="https://edu.dluciv.name/giallo.css" />
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/closable.js"></script>
+			<script type="text/javascript" defer data-goatcounter="https://gr.edu.dluciv.name/count" src="https://edu.dluciv.name/count.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/auto-render.min.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/katex-init.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/search-fuse.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/theme-switcher.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/addmeta.js"></script>
+			<script type="text/javascript" defer  src="https://edu.dluciv.name/scripts/ext-table.js"></script>
+
+	<meta property="og:site_name" content="Луцив Дмитрий Вадимович" />
+	<meta property="og:title" content="Проектирование цифровых систем - Луцив Дмитрий Вадимович" />
+	<meta property="og:url" content="https://edu.dluciv.name/courses/hw-design-m1/" />
+	<meta property="og:description" content="Луцив Дмитрий Вадимович" /><meta property="og:image" content="https://edu.dluciv.name/card.png" /><meta property="og:locale" content="en_US" />
+</head>
+
+<body>
+
+		
+<header id="site-nav">
+	<nav>
+		<a href="#main-content" tabindex="0">
+			Skip to Main Content
+		</a>
+		<ul>
+			<li id="home">
+				<a href="https://edu.dluciv.name">
+					<i class="icon"></i>Луцив Дмитрий Вадимович</a>
+			</li>
+			<li class="divider"></li><li>
+						<details class="closable">
+							<summary>📚 Материалы</summary>
+							<ul>
+										<li>
+											<a href="https://edu.dluciv.name/courses/modern-tt-m1/">🛠 Современные инструменты и технологии проргаммирования</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/hw-design-m1/"class="active">🦾 Проектирование цифровых систем</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b5/">🧠 Алгоритмы и структуры данных, 5-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/nosql-b7/">🛢 Распределённая обработка информации и NoSQL БД</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/internships/masters/">💡 Практики и ВКР магистров</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/algds-b2/">🤖 Алгоритмы и структуры данных, 2-й семестр</a>
+										</li>
+										<li>
+											<a href="https://edu.dluciv.name/courses/comparch-b24/">👨‍💻 Архитектура ЭВМ, 2-й семестр у ПИ и 4-й у ТП</a>
+										</li></ul>
+						</details>
+			 		 </li>
+				<li id="search">
+					<button id="search-toggle" class="circle" title="Search">
+						<i class="icon"></i>
+					</button>
+				</li><li id="language-switcher">
+	<details class="closable">
+		<summary class="circle" title="Language">
+			<i class="icon"></i>
+		</summary>
+		<ul><li>
+						<a lang="en" href="https://edu.dluciv.name/en/courses/hw-design-m1/">English</a>
+					</li></ul>
+	</details>
+</li>
+
+				<li id="theme-switcher">
+					<details class="closable">
+						<summary class="circle" title="Theme">
+							<i class="icon"></i>
+						</summary>
+						<ul>
+							<li>
+								<button class="circle" id="theme-light" title="Switch to Light Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-dark" title="Switch to Dark Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+							<li>
+								<button class="circle" id="theme-system" title="Use System Theme">
+									<i class="icon"></i>
+								</button>
+							</li>
+						</ul>
+					</details>
+				</li>
+		</ul>
+	</nav>
+		<div id="search-container">
+			<label for="search-bar" class="visually-hidden">Search</label>
+			<input id="search-bar" placeholder="Search for…" autocomplete="off" type="search" disabled>
+			<div id="search-results-container">
+				<div id="search-results"></div>
+			</div>
+		</div>
+</header>
+<div id="sidebar">
+			<div><h2>Содержание</h2>
+		<ul><li>
+					<a href="https://edu.dluciv.name/courses/hw-design-m1/#soderzhanie-kursa">Содержание курса</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#razdel-1-teoriia-tsifrovykh-sistem">Раздел 1. Теория цифровых систем</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#razdel-2-iazyk-opisaniia-apparatury">Раздел 2. Язык описания аппаратуры</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#razdel-3-prakticheskoe-proektirovanie">Раздел 3. Практическое проектирование</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/hw-design-m1/#promezhutochnaia-attestatsiia">Промежуточная аттестация</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#zachiot">Зачёт</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#primernye-voprosy-k-ekzamenu">Примерные вопросы к экзамену</a>
+								</li></ul></li><li>
+					<a href="https://edu.dluciv.name/courses/hw-design-m1/#materialy">Материалы</a><ul><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#lektsionnye-materialy">Лекционные материалы</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#instrumenty">Инструменты</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#literatura">Литература</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#onlain-kursy">Онлайн-курсы</a>
+								</li><li>
+									<a href="https://edu.dluciv.name/courses/hw-design-m1/#mul-timedia">Мультимедиа</a>
+								</li></ul></li></ul></div>
+		</div><main id="main-content">
+		
+<h1>Проектирование цифровых систем</h1><!-- 1 семестр магистратура Программная инженерия -->
+<p>Для программы:</p>
+<ul>
+<li>Программная инженерия (магистратура)</li>
+</ul>
+<h2 id="soderzhanie-kursa"><a class="zola-anchor" href="#soderzhanie-kursa" aria-label="Anchor link for: soderzhanie-kursa"><i class="icon"></i></a>
+Содержание курса</h2>
+<p>Курс строится на трёх разделах: аппаратная теория, язык описания аппаратуры и практическое проектирование.</p>
+<h3 id="razdel-1-teoriia-tsifrovykh-sistem"><a class="zola-anchor" href="#razdel-1-teoriia-tsifrovykh-sistem" aria-label="Anchor link for: razdel-1-teoriia-tsifrovykh-sistem"><i class="icon"></i></a>
+Раздел 1. Теория цифровых систем</h3>
+<p>Основа — материал курса <a href="/courses/comparch-b24">«Архитектура ЭВМ»</a> для бакалавриата,
+дополненный графической нотацией для изображения цифровых электронных схем.</p>
+<ol>
+<li>Шины: виды, протоколы, исторически значимые системные шины; внутренняя и внешняя разрядность процессоров, шин и памяти.</li>
+<li>Прерывания и DMA (MMIO): управление устройствами хранения данных и устройствами реального времени; автоматическая и «ручная» настройка оборудования.</li>
+<li>Графическая нотация цифровых схем: принципы изображения логических элементов, узлов и связей; чтение и интерпретация схем.</li>
+<li>АЛУ, сумматоры, схемы сдвига: арифметика от вычитания до деления; логические вентили, их конструкция и применение.</li>
+<li>Триггеры (RS, D, MS, JK, T), регистры: конструкция, назначение, чтение и запись данных; сдвигающие регистры и счётчики.</li>
+</ol>
+<h3 id="razdel-2-iazyk-opisaniia-apparatury"><a class="zola-anchor" href="#razdel-2-iazyk-opisaniia-apparatury" aria-label="Anchor link for: razdel-2-iazyk-opisaniia-apparatury"><i class="icon"></i></a>
+Раздел 2. Язык описания аппаратуры</h3>
+<p>Введение в Hardware Description Languages и открытые инструменты симуляции.</p>
+<ol>
+<li>Место языков описания аппаратуры в жизни инженера; мотивация и история: от схемотехники к программному описанию оборудования.</li>
+<li>Язык Verilog: структурный и поведенческий уровни описания; модули, порты, операторы.</li>
+<li>Язык SystemVerilog: расширения Verilog для тестирования и верификации; интерфейсы, классы, assertion-ы.</li>
+<li>Открытые симуляторы: Icarus Verilog, GTKWave и другие; компиляция, запуск симуляции, анализ волновых диаграмм.</li>
+</ol>
+<h3 id="razdel-3-prakticheskoe-proektirovanie"><a class="zola-anchor" href="#razdel-3-prakticheskoe-proektirovanie" aria-label="Anchor link for: razdel-3-prakticheskoe-proektirovanie"><i class="icon"></i></a>
+Раздел 3. Практическое проектирование</h3>
+<p>Построение простых цифровых схем на доступном диалекте Verilog.</p>
+<ol>
+<li>Комбинаторные схемы: мультиплексоры, декодеры, арифметические блоки.</li>
+<li>Последовательностные схемы: триггеры, регистры, счётчики на Verilog.</li>
+<li>Простейшее запоминающее устройство (ОЗУ): проектирование и тестирование.</li>
+<li>Простейший процессор: архитектура, модель памяти команд, цикл «выборка — декодирование — исполнение».</li>
+</ol>
+<h2 id="promezhutochnaia-attestatsiia"><a class="zola-anchor" href="#promezhutochnaia-attestatsiia" aria-label="Anchor link for: promezhutochnaia-attestatsiia"><i class="icon"></i></a>
+Промежуточная аттестация</h2>
+<h3 id="zachiot"><a class="zola-anchor" href="#zachiot" aria-label="Anchor link for: zachiot"><i class="icon"></i></a>
+Зачёт</h3>
+<p>Практические задания по проектированию цифровых схем на Verilog:</p>
+<ul>
+<li>проектирование комбинаторных и последовательностных схем;</li>
+<li>разработка и тестирование модуля ОЗУ;</li>
+<li>проектирование простейшего процессора.</li>
+</ul>
+<h3 id="primernye-voprosy-k-ekzamenu"><a class="zola-anchor" href="#primernye-voprosy-k-ekzamenu" aria-label="Anchor link for: primernye-voprosy-k-ekzamenu"><i class="icon"></i></a>
+Примерные вопросы к экзамену</h3>
+<ol>
+<li>Назначение и виды цифровых и аналоговых вычислительных систем; преимущества цифрового представления данных.</li>
+<li>Шины данных, адреса и управления; принципы организации передачи данных между устройствами.</li>
+<li>Прерывания: аппаратные и программные; приоритеты; векторный метод обработки прерываний.</li>
+<li>Прямой доступ к памяти (DMA): принцип работы, области применения, отличия от программного ввода-вывода.</li>
+<li>АЛУ: структура, функции, основные арифметико-логические операции.</li>
+<li>Логические вентили и их комбинации; принцип построения сумматоров и схем сравнения.</li>
+<li>Триггеры: типы (RS, D, JK, T), назначение, характеристики, область применения.</li>
+<li>Регистры: назначение, виды (сдвигающие, параллельные), чтение и запись данных.</li>
+<li>Модель памяти: статическая и динамическая ОЗУ; принцип хранения бита информации.</li>
+<li>Системы команд: CISC и RISC; принципы организации команд процессора.</li>
+<li>Цикл обработки команды: выборка, декодирование, исполнение, запись результата.</li>
+<li>Язык Verilog: модуль и порт; структурное и поведенческое описание; уровни описания.</li>
+<li>Система данных Verilog: типы данных (wire, reg, integer); операторы присваивания.</li>
+<li>Модули и иерархия: instanciation, параметризация, передача данных между модулями.</li>
+<li>Тестирование на Verilog: testbench; моделирование сценариев; анализ волновых диаграмм.</li>
+<li>SystemVerilog: расширения для верификации; интерфейсы, классы, assertion-ы.</li>
+<li>Приёмы проектирования цифровых схем: декомпозиция, иерархический подход, повторное использование модулей.</li>
+<li>Проектирование простейшего процессора: архитектура, набор команд, организация памяти.</li>
+<li>Открытые инструменты: Icarus Verilog, GTKWave; процесс симуляции от исходного кода до анализа результатов.</li>
+<li>Вдумчивые и конструктивные замечания по содержанию курса.</li>
+</ol>
+<h2 id="materialy"><a class="zola-anchor" href="#materialy" aria-label="Anchor link for: materialy"><i class="icon"></i></a>
+Материалы</h2>
+<h3 id="lektsionnye-materialy"><a class="zola-anchor" href="#lektsionnye-materialy" aria-label="Anchor link for: lektsionnye-materialy"><i class="icon"></i></a>
+Лекционные материалы</h3>
+<ul>
+<li><a rel="external" href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/slides.pdf">Слайды по Архитектуре ЭВМ</a></li>
+<li><a rel="external" href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/circuits">Электронные схемы</a></li>
+<li><a rel="external" href="https://github.com/dluciv/Computer_Architecture-SPbU-CB.5080/tree/main/examples">Примеры</a></li>
+</ul>
+<h3 id="instrumenty"><a class="zola-anchor" href="#instrumenty" aria-label="Anchor link for: instrumenty"><i class="icon"></i></a>
+Инструменты</h3>
+<ol>
+<li><a rel="external" href="http://iverilog.icarus.com/">Icarus Verilog</a> — открытый симулятор Verilog (GPL)</li>
+<li><a rel="external" href="https://www.veripool.org/verilator/">Verilator</a> — открытый симулятор Verilog/SystemVerilog, компиляция в C++ (LGPL)</li>
+<li><a rel="external" href="https://gtkwave.sourceforge.net/">GTKWave</a> — анализатор волновых диаграмм (GPL)</li>
+<li><a rel="external" href="https://github.com/reds-heig/logisim-evolution">Logisim Evolution</a> — графический симулятор цифровых схем (GPL)</li>
+<li><a rel="external" href="https://www.cocotb.org/">cocotb</a> — среда тестирования RTL-схем на Python (ISC)</li>
+</ol>
+<p>Для быстрого старта без установки: <a rel="external" href="https://edaplayground.com/">EDA Playground</a> — бесплатная веб-среда с доступом к Icarus, Verilator и другим симуляторам.</p>
+<h3 id="literatura"><a class="zola-anchor" href="#literatura" aria-label="Anchor link for: literatura"><i class="icon"></i></a>
+Литература</h3>
+<p>Большинство изданий доступны в виде электронных копий через университетские библиотеки и другие ресурсы.</p>
+<ol>
+<li>Орлов С.А., Цилькер Б.Я. Организация ЭВМ и систем: Учебник для
+вузов. 2-е изд. — СПб.: Питер, 2011. — 688 с.</li>
+<li>Хорошевский В.Г. Архитектура вычислительных систем: Учеб.
+пособие. 2-e изд., перераб. и доп. M.: Изд-во МГТУ им. H.Э.
+Баумана, 2008. 520 c.</li>
+<li>Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд. — СПб.:
+Питер, 2013. — 816 с.</li>
+<li>Сара Л. Харрис, Дэвид Харрис. Цифровая схемотехника и архитектура
+компьютера: RISC-V / пер. с англ. В. С. Яценкова, А. Ю. Романова;
+под ред. А. Ю. Романова. – М.: ДМК Пресс, 2021. – 810 с.: ил.</li>
+<li>Код. Тайный язык информатики / Чарльз Петцольд ; пер. с англ. О.
+Сивченко ; [науч. ред. В. Артюхин, А. Гизатулин]. — М.: Манн,
+Иванов и Фербер, 2019. — 448 с.</li>
+<li>Дональд Томас. Логическое проектирование и верификация систем на SystemVerilog /
+пер.  с  анг. А. А.  Слинкина, А.  С.  Камкина, М. М.  Чупилко; науч. ред.
+А. С. Камкин, М. М. Чупилко. – М.: ДМК Пресс, 2019. – 384 с.: ил.</li>
+</ol>
+<h3 id="onlain-kursy"><a class="zola-anchor" href="#onlain-kursy" aria-label="Anchor link for: onlain-kursy"><i class="icon"></i></a>
+Онлайн-курсы</h3>
+<p>... рекомендованные в качестве дополнительных материалов</p>
+<ol>
+<li><a rel="external" href="https://en.coursera.org/learn/comparch">Computer Architecture</a> <em>Princeton University</em></li>
+<li><a rel="external" href="https://www.coursera.org/learn/hardware-description-language-for-fpga-design">Hardware Description Languages for FPGA Design</a> <em>University of Colorado Boulder</em></li>
+</ol>
+<h3 id="mul-timedia"><a class="zola-anchor" href="#mul-timedia" aria-label="Anchor link for: mul-timedia"><i class="icon"></i></a>
+Мультимедиа</h3>
+<ol>
+<li><a rel="external" href="http://en.wikipedia.org/wiki/Pirates_of_the_Silicon_Valley">Pirates of Silicon Valley</a></li>
+<li><a rel="external" href="http://en.wikipedia.org/wiki/Revolution_os">Revolution OS</a></li>
+<li><a rel="external" href="http://en.wikipedia.org/wiki/Micro_Men">Micro Men</a></li>
+<li><a rel="external" href="http://www.homebrewcpu.com/">Homebrew CPU</a> — примеры машин,
+ЦП которых были самостоятельно спроектированы и изготовлены
+энтузиастами</li>
+</ol>
+
+
+	</main>
+	<footer id="site-footer">
+		<nav>
+			<ul>
+					<li>
+						<a href="https://se.math.spbu.ru/" rel="" class="external">Кафедра системного программирования</a>
+					</li>
+					<li>
+						<a href="https://math.spbu.ru/" rel="" class="external">Матмех</a>
+					</li>
+					<li>
+						<a href="https://spbu.ru/" rel="" class="external">СПбГУ</a>
+					</li>
+					<li>
+						<a href="https://github.com/dluciv/static-edu.dluciv.name" rel="" class="external">Нашли неточность?..</a>
+					</li>
+					<li>
+						<a href="https://duckquill.daudix.one/" rel="" class="external">🦆</a>
+					</li>
+			</ul>
+		</nav>
+</footer>
+
+	
+	<span id="search-index" class="hidden">https://edu.dluciv.name/search_index.ru.json</span>
+	<span id="more-matches-text" class="hidden">$MATCHES more matches</span>
+
+	<style type="text/css">
+	:root {
+		--alert-note-text: "Note";
+		--alert-tip-text: "Tip";
+		--alert-important-text: "Important";
+		--alert-warning-text: "Warning";
+		--alert-caution-text: "Caution";
+	}
+</style>
+
+
+</body>
+</html>
