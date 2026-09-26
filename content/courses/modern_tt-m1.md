@@ -91,7 +91,7 @@ toc_sidebar = true
 ### Лекционные и побочные материалы
 
 #### По «первой части» курса
-- [Немного вводных слайдов](https://github.com/dluciv/Modern-Tools-Techs-BM.5666/tree/main/slides)
+- [Немного вводных слайдов](https://github.com/dluciv/Modern-Tools-Techs-BM.5666/tree/main/slides.typ)
 - [«Про Git»](https://git-scm.com/book/ru/v2) (английская версия актуальнее)
 - Руководство по командной оболочке
   - Любое общее руководство, [например это](https://ruvds.com/doc/bash.pdf)
