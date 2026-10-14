@@ -14,9 +14,9 @@ toc_sidebar = true
 
 ### Доклады
 
-Таблица обновляется раз в ~15 минут:
+[Таблица](https://cloud.mail.ru/public/3q2B/y7WbWnSSo), предпросмотр обновляется раз в ~15 минут:
 
-{{ <ext_table src="https://vision.spb.ru/uxls/Магистры_доклады_в_семестре/Доклады в семестре по тематике практик.html" collapse={true} /> }}
+{{ <ext_table src="https://vision.spb.ru/uxls/edu.dluciv.name/mag-practices/reports-during-semester.html" collapse={true} /> }}
 
 ## Дисциплина в семестре
 

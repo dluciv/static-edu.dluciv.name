@@ -75,6 +75,7 @@ title = "Распределённая обработка данных и NoSQL �
 4. RAG vs Fine-Tuning: архитектурный выбор хранения контекста
    * [Смерть fine-tuning? Почему RAG и промпт-инженерия вытесняют дообучение](https://habr.com/ru/companies/cloud_ru/articles/940868/)
    * [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) [🏛](https://web.archive.org/web/20200607223030/https://arxiv.org/abs/2005.11401) DOI/arXiv: [10.48550/arXiv.2005.11401](https://doi.org/10.48550/arXiv.2005.11401)
+
 ### 5. Конкретные системы
 
 1. Яндекс ClickHouse (и современные колоночные OLAP)
@@ -109,10 +110,10 @@ title = "Распределённая обработка данных и NoSQL �
 
 ## Прогресс
 
-В таблице [по ссылке](https://disk.yandex.ru/i/Bf6_YimdPpRdWQ)
+В таблице [по ссылке](https://cloud.mail.ru/public/Wgx6/3CxaHGHoa)
 Предпросмотр (обновляется раз в ~15 минут):
 
-{{ <ext_table src="https://vision.spb.ru/uxls/Успеваемость.pub/СПбГУ/Бакалавриат/NoSQL/2026-Темы_вопросы_успехи.html" collapse={true} /> }}
+{{ <ext_table src="https://vision.spb.ru/uxls/edu.dluciv.name/mag-practices/reports-during-semester.html" collapse={true} /> }}
 <!-- было iframe=true, height="1000px" -->
 
 ##  Правила
