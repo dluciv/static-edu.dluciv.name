@@ -113,7 +113,7 @@ title = "Распределённая обработка данных и NoSQL �
 В таблице [по ссылке](https://cloud.mail.ru/public/Wgx6/3CxaHGHoa)
 Предпросмотр (обновляется раз в ~15 минут):
 
-{{ <ext_table src="https://vision.spb.ru/uxls/edu.dluciv.name/mag-practices/reports-during-semester.html" collapse={true} /> }}
+{{ <ext_table src="https://vision.spb.ru/uxls/edu.dluciv.name/_CDN/edu.dluciv.name/bactp-nosql/2026-topics-performance.html" collapse={true} /> }}
 <!-- было iframe=true, height="1000px" -->
 
 ##  Правила
