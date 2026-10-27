@@ -24,7 +24,7 @@ description = "Луцив Дмитрий Вадимович: Образован�
   руководитель образовательной программы бакалавриата «Программная инженерия»
 
 {% <details summary="..."> %}
-- Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
+- Председатель [Учебно-методической комиссии по УГСН 09.00.00 «Информатика и вычислительная техника» и 10.00.00 «Информационная безопасность»](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchebno-metodicheskie-komissii/uchebno-metodicheskaya-24)
 - Учёный секретарь [Учёного совета Математико-механического факультета](https://spbu.ru/universitet/podrazdeleniya-i-rukovodstvo/uchenye-sovety/uchenyy-sovet-matematiko-mekhanicheskogo)
 {% </details> %}
 
