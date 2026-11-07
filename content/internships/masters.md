@@ -10,7 +10,7 @@ toc_sidebar = true
 
 ### ВКС
 
-[По ссылке](https://clc.li/zxc)
+[По ссылке](https://webinar.spbu.ru/2687/849089905)
 
 ### Доклады
 
