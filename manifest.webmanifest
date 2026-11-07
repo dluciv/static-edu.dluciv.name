@@ -1,0 +1,15 @@
+{
+  "name": "Луцив всегда со мной",
+  "short_name": "Луцив Д. В.",
+  "start_url": "/?utm_source=edu.dluciv.name&utm_campaign=edu.dluciv.name_webapp",
+  "display": "standalone",
+  "lang": "ru",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
