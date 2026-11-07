@@ -45,6 +45,15 @@ katex = true
 3.  Простейшее запоминающее устройство (ОЗУ): проектирование и тестирование.
 4.  Простейший процессор: архитектура, модель памяти команд, цикл «выборка — декодирование — исполнение».
 
+## Прогресс
+
+В таблице [по ссылке](https://cloud.mail.ru/public/U1Jt/bN3Dx2Eic)
+Предпросмотр (обновляется раз в ~15 минут):
+
+{{ <ext_table src="https://vision.spb.ru/uxls/edu.dluciv.name/magpi-schematics/magpi-schematics.html" collapse={true} /> }}
+<!-- было iframe=true, height="1000px" -->
+
+
 ## Промежуточная аттестация
 
 ### Зачёт
